@@ -2,7 +2,7 @@
  "formatVersion": 1,
  "source": "https://developers.eveonline.com/static-data/tranquility",
  "firstBuild": 3031812,
- "latestBuild": 3107075,
+ "latestBuild": 3137986,
  "builds": [
   {
    "build": 3031812,
@@ -136,6 +136,76 @@
    "releaseDate": "2025-11-19T11:13:39Z",
    "verification": "ok",
    "deltaBytes": 408
+  },
+  {
+   "build": 3108536,
+   "lastBuild": 3107075,
+   "releaseDate": "2025-11-20T11:13:39Z",
+   "verification": "ok",
+   "deltaBytes": 271949
+  },
+  {
+   "build": 3110079,
+   "lastBuild": 3108536,
+   "releaseDate": "2025-11-21T11:13:41Z",
+   "verification": "ok",
+   "deltaBytes": 3171
+  },
+  {
+   "build": 3113289,
+   "lastBuild": 3110079,
+   "releaseDate": "2025-11-24T11:13:42Z",
+   "verification": "ok",
+   "deltaBytes": 34807
+  },
+  {
+   "build": 3118350,
+   "lastBuild": 3113289,
+   "releaseDate": "2025-11-27T11:13:44Z",
+   "verification": "ok",
+   "deltaBytes": 5148
+  },
+  {
+   "build": 3123381,
+   "lastBuild": 3118350,
+   "releaseDate": "2025-12-02T11:48:04Z",
+   "verification": "ok",
+   "deltaBytes": 2929
+  },
+  {
+   "build": 3128086,
+   "lastBuild": 3123381,
+   "releaseDate": "2025-12-04T11:14:50Z",
+   "verification": "ok",
+   "deltaBytes": 285
+  },
+  {
+   "build": 3130269,
+   "lastBuild": 3128086,
+   "releaseDate": "2025-12-05T11:13:39Z",
+   "verification": "ok",
+   "deltaBytes": 9954
+  },
+  {
+   "build": 3133773,
+   "lastBuild": 3130269,
+   "releaseDate": "2025-12-08T11:13:49Z",
+   "verification": "ok",
+   "deltaBytes": 89233
+  },
+  {
+   "build": 3136254,
+   "lastBuild": 3133773,
+   "releaseDate": "2025-12-10T11:13:38Z",
+   "verification": "ok",
+   "deltaBytes": 74217
+  },
+  {
+   "build": 3137986,
+   "lastBuild": 3136254,
+   "releaseDate": "2025-12-11T11:13:43Z",
+   "verification": "ok",
+   "deltaBytes": 9758
   }
  ]
 }

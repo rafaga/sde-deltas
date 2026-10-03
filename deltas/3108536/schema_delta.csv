@@ -1,0 +1,4 @@
+table,kind,field_path
+typeMaterials,field_added,randomizedMaterials.[].materialTypeID
+typeMaterials,field_added,randomizedMaterials.[].quantityMax
+typeMaterials,field_added,randomizedMaterials.[].quantityMin

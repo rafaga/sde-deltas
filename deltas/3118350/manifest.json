@@ -1,0 +1,70 @@
+{
+  "build": 3118350,
+  "files": {
+    "delta.jsonl.gz": {
+      "bytes": 5148,
+      "sha256": "672440218967621aef84a1424f30c46fca20e36155e0cd091cea6feeefb78541"
+    },
+    "schema_delta.csv": {
+      "bytes": 23,
+      "sha256": "06b08f3ca326bcf115cbe00328258d0fa60856a9d993542b82818ecd06cef5ea"
+    },
+    "summary.csv": {
+      "bytes": 1795,
+      "sha256": "ae2fcda5d6bd53bf2997018eeed33798345792c0b1c1d58ee1d0770484866ed8"
+    },
+    "verification.csv": {
+      "bytes": 25,
+      "sha256": "88eb970f4841cc8dfded9fa18c27ce495639d3de945343de7c830dcbde914171"
+    }
+  },
+  "formatVersion": 1,
+  "lastBuild": 3113289,
+  "notice": "© 2014 CCP hf. All rights reserved. \"EVE\", \"EVE Online\", \"CCP\", and all related logos and images are trademarks or registered trademarks of CCP hf. This data is derived from the EVE Online Static Data Export and is the property of CCP hf.; see NOTICE. No official affiliation or endorsement by CCP Games is stated or implied.",
+  "releaseDate": "2025-11-27T11:13:44Z",
+  "source": "https://developers.eveonline.com/static-data/tranquility",
+  "tables": {
+    "mapSolarSystems": {
+      "added": 0,
+      "changed": 146,
+      "removed": 0
+    },
+    "skinLicenses": {
+      "added": 10,
+      "changed": 0,
+      "removed": 1
+    },
+    "skinMaterials": {
+      "added": 1,
+      "changed": 0,
+      "removed": 0
+    },
+    "skins": {
+      "added": 10,
+      "changed": 0,
+      "removed": 1
+    },
+    "types": {
+      "added": 10,
+      "changed": 0,
+      "removed": 1
+    }
+  },
+  "totals": {
+    "added": 31,
+    "changed": 146,
+    "deltaLines": 180,
+    "removed": 3,
+    "schemaOps": 0,
+    "tablesChanged": 5,
+    "tablesCompared": 52
+  },
+  "verification": {
+    "changelogCoverage": "complete",
+    "errorDetails": [],
+    "errors": 0,
+    "info": 0,
+    "mode": "verify-all",
+    "status": "ok"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "build": 3137986,
+  "files": {
+    "delta.jsonl.gz": {
+      "bytes": 9758,
+      "sha256": "7b8adeba4311f313817d1a7cbcfd2614a0662050df96d915e8e5a280f643d480"
+    },
+    "schema_delta.csv": {
+      "bytes": 23,
+      "sha256": "06b08f3ca326bcf115cbe00328258d0fa60856a9d993542b82818ecd06cef5ea"
+    },
+    "summary.csv": {
+      "bytes": 1827,
+      "sha256": "5c3093cc46715c7a50d200bac407f861533b1d19735b77e8640b883eda36c73d"
+    },
+    "verification.csv": {
+      "bytes": 25,
+      "sha256": "88eb970f4841cc8dfded9fa18c27ce495639d3de945343de7c830dcbde914171"
+    }
+  },
+  "formatVersion": 1,
+  "lastBuild": 3136254,
+  "notice": "© 2014 CCP hf. All rights reserved. \"EVE\", \"EVE Online\", \"CCP\", and all related logos and images are trademarks or registered trademarks of CCP hf. This data is derived from the EVE Online Static Data Export and is the property of CCP hf.; see NOTICE. No official affiliation or endorsement by CCP Games is stated or implied.",
+  "releaseDate": "2025-12-11T11:13:43Z",
+  "source": "https://developers.eveonline.com/static-data/tranquility",
+  "tables": {
+    "certificates": {
+      "added": 0,
+      "changed": 13,
+      "removed": 0
+    },
+    "dogmaAttributes": {
+      "added": 3,
+      "changed": 0,
+      "removed": 0
+    },
+    "dogmaEffects": {
+      "added": 7,
+      "changed": 1,
+      "removed": 0
+    },
+    "graphics": {
+      "added": 2,
+      "changed": 0,
+      "removed": 0
+    },
+    "masteries": {
+      "added": 2,
+      "changed": 0,
+      "removed": 0
+    },
+    "skinLicenses": {
+      "added": 1,
+      "changed": 0,
+      "removed": 0
+    },
+    "skinMaterials": {
+      "added": 1,
+      "changed": 0,
+      "removed": 0
+    },
+    "skins": {
+      "added": 1,
+      "changed": 0,
+      "removed": 0
+    },
+    "typeBonus": {
+      "added": 2,
+      "changed": 0,
+      "removed": 0
+    },
+    "typeDogma": {
+      "added": 9,
+      "changed": 14,
+      "removed": 1
+    },
+    "typeMaterials": {
+      "added": 2,
+      "changed": 0,
+      "removed": 1
+    },
+    "types": {
+      "added": 14,
+      "changed": 1,
+      "removed": 1
+    }
+  },
+  "totals": {
+    "added": 44,
+    "changed": 29,
+    "deltaLines": 76,
+    "removed": 3,
+    "schemaOps": 0,
+    "tablesChanged": 12,
+    "tablesCompared": 53
+  },
+  "verification": {
+    "changelogCoverage": "complete",
+    "errorDetails": [],
+    "errors": 0,
+    "info": 0,
+    "mode": "verify-all",
+    "status": "ok"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "build": 3108536,
+  "files": {
+    "delta.jsonl.gz": {
+      "bytes": 271949,
+      "sha256": "a5ad550e88ff02cf7ec7da532a2cc4b23b185da82a669397e6ed4b3168707f6c"
+    },
+    "schema_delta.csv": {
+      "bytes": 212,
+      "sha256": "ea3a8feeb9308873b3fb87f21e5ddfb55231e743b8bbe9c377ee48df29d4db82"
+    },
+    "summary.csv": {
+      "bytes": 1804,
+      "sha256": "49d3a1d4c4e48dd33671f8d2246c01fd36cdc84f616fab3ba64158ad3eed3e5a"
+    },
+    "verification.csv": {
+      "bytes": 25,
+      "sha256": "88eb970f4841cc8dfded9fa18c27ce495639d3de945343de7c830dcbde914171"
+    }
+  },
+  "formatVersion": 1,
+  "lastBuild": 3107075,
+  "notice": "© 2014 CCP hf. All rights reserved. \"EVE\", \"EVE Online\", \"CCP\", and all related logos and images are trademarks or registered trademarks of CCP hf. This data is derived from the EVE Online Static Data Export and is the property of CCP hf.; see NOTICE. No official affiliation or endorsement by CCP Games is stated or implied.",
+  "releaseDate": "2025-11-20T11:13:39Z",
+  "source": "https://developers.eveonline.com/static-data/tranquility",
+  "tables": {
+    "graphics": {
+      "added": 1,
+      "changed": 2,
+      "removed": 0
+    },
+    "groups": {
+      "added": 1,
+      "changed": 0,
+      "removed": 0
+    },
+    "npcCorporations": {
+      "added": 0,
+      "changed": 9,
+      "removed": 0
+    },
+    "skinLicenses": {
+      "added": 1,
+      "changed": 0,
+      "removed": 0
+    },
+    "skins": {
+      "added": 1,
+      "changed": 0,
+      "removed": 0
+    },
+    "typeMaterials": {
+      "added": 10,
+      "changed": 1,
+      "changelogFlags": [
+        "schemaChanged"
+      ],
+      "removed": 0,
+      "schemaOps": {
+        "add_path": 3
+      }
+    },
+    "types": {
+      "added": 3,
+      "changed": 328,
+      "removed": 0
+    }
+  },
+  "totals": {
+    "added": 17,
+    "changed": 340,
+    "deltaLines": 360,
+    "removed": 0,
+    "schemaOps": 3,
+    "tablesChanged": 7,
+    "tablesCompared": 52
+  },
+  "verification": {
+    "changelogCoverage": "complete",
+    "errorDetails": [],
+    "errors": 0,
+    "info": 0,
+    "mode": "verify-all",
+    "status": "ok"
+  }
+}

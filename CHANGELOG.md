@@ -3,6 +3,109 @@
 Changes between consecutive builds of the EVE Online Static Data Export, generated from `deltas/*/manifest.json`.
 It lists tables and counts only; the values are in `deltas/<build>/delta.jsonl.gz`.
 
+## Build 3137986 (2025-12-11) - base 3136254
+
+- 12 tables changed: +44 added, -3 removed, ~29 modified, 0 schema operations
+  - `certificates`: +0 -0 ~13
+  - `dogmaAttributes`: +3 -0 ~0
+  - `dogmaEffects`: +7 -0 ~1
+  - `graphics`: +2 -0 ~0
+  - `masteries`: +2 -0 ~0
+  - `skinLicenses`: +1 -0 ~0
+  - `skinMaterials`: +1 -0 ~0
+  - `skins`: +1 -0 ~0
+  - `typeBonus`: +2 -0 ~0
+  - `typeDogma`: +9 -1 ~14
+  - `typeMaterials`: +2 -1 ~0
+  - `types`: +14 -1 ~1
+
+## Build 3136254 (2025-12-10) - base 3133773
+
+- 4 tables changed: +0 added, -0 removed, ~97 modified, 0 schema operations
+  - `groups`: +0 -0 ~1
+  - `skinMaterials`: +0 -0 ~1
+  - `skins`: +0 -0 ~22
+  - `types`: +0 -0 ~73
+
+## Build 3133773 (2025-12-08) - base 3130269
+
+- 17 tables changed: +376 added, -0 removed, ~59 modified, 0 schema operations
+  - `blueprints`: +1 -0 ~0
+  - `certificates`: +0 -0 ~8
+  - `dbuffCollections`: +11 -0 ~0
+  - `dogmaAttributes`: +1 -0 ~0
+  - `dogmaEffects`: +4 -0 ~0
+  - `graphics`: +1 -0 ~0
+  - `groups`: +2 -0 ~0
+  - `icons`: +42 -0 ~0
+  - `masteries`: +1 -0 ~0
+  - `npcCorporations`: +0 -0 ~2
+  - `skinLicenses`: +26 -0 ~0
+  - `skinMaterials`: +1 -0 ~0
+  - `skins`: +26 -0 ~0
+  - `typeBonus`: +1 -0 ~0
+  - `typeDogma`: +63 -0 ~4
+  - `typeMaterials`: +4 -0 ~0
+  - `types`: +192 -0 ~45
+
+## Build 3130269 (2025-12-05) - base 3128086
+
+- 6 tables changed: +0 added, -0 removed, ~87 modified, 0 schema operations
+  - `certificates`: +0 -0 ~1
+  - `groups`: +0 -0 ~2
+  - `marketGroups`: +0 -0 ~2
+  - `skinMaterials`: +0 -0 ~1
+  - `typeBonus`: +0 -0 ~6
+  - `types`: +0 -0 ~75
+
+## Build 3128086 (2025-12-04) - base 3123381
+
+- 2 tables changed: +0 added, -0 removed, ~13 modified, 0 schema operations
+  - `npcCorporations`: +0 -0 ~12
+  - `types`: +0 -0 ~1
+
+## Build 3123381 (2025-12-02) - base 3118350
+
+- 4 tables changed: +208 added, -0 removed, ~1 modified, 0 schema operations
+  - `compressibleTypes`: +206 -0 ~0
+  - `dbuffCollections`: +0 -0 ~1
+  - `typeDogma`: +1 -0 ~0
+  - `types`: +1 -0 ~0
+
+## Build 3118350 (2025-11-27) - base 3113289
+
+- 5 tables changed: +31 added, -3 removed, ~146 modified, 0 schema operations
+  - `mapSolarSystems`: +0 -0 ~146
+  - `skinLicenses`: +10 -1 ~0
+  - `skinMaterials`: +1 -0 ~0
+  - `skins`: +10 -1 ~0
+  - `types`: +10 -1 ~0
+
+## Build 3113289 (2025-11-24) - base 3110079
+
+- 4 tables changed: +42 added, -0 removed, ~4 modified, 0 schema operations
+  - `skinLicenses`: +12 -0 ~0
+  - `skins`: +12 -0 ~0
+  - `typeMaterials`: +0 -0 ~3
+  - `types`: +18 -0 ~1
+
+## Build 3110079 (2025-11-21) - base 3108536
+
+- 2 tables changed: +0 added, -0 removed, ~155 modified, 0 schema operations
+  - `groups`: +0 -0 ~1
+  - `mapSolarSystems`: +0 -0 ~154
+
+## Build 3108536 (2025-11-20) - base 3107075
+
+- 7 tables changed: +17 added, -0 removed, ~340 modified, 3 schema operations
+  - `graphics`: +1 -0 ~2
+  - `groups`: +1 -0 ~0
+  - `npcCorporations`: +0 -0 ~9
+  - `skinLicenses`: +1 -0 ~0
+  - `skins`: +1 -0 ~0
+  - `typeMaterials`: +10 -0 ~1 [schema: add_path x3]
+  - `types`: +3 -0 ~328
+
 ## Build 3107075 (2025-11-19) - base 3103065
 
 - 3 tables changed: +1 added, -0 removed, ~5 modified, 0 schema operations
