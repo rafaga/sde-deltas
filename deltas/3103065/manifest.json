@@ -1,0 +1,194 @@
+{
+  "build": 3103065,
+  "files": {
+    "delta.jsonl.gz": {
+      "bytes": 741864,
+      "sha256": "d1de8b5cc29f355616131b26bc7e6444b18d168791f403f852b24427d6b550d2"
+    },
+    "schema_delta.csv": {
+      "bytes": 24020,
+      "sha256": "3e0eb0c992fc3cef198bead9b6ddca3242389e1d8a8f2373e4a120744091e426"
+    },
+    "summary.csv": {
+      "bytes": 1899,
+      "sha256": "cafa6ecd076383f5e82b8f916d411ef984c31c67ee63facc957b2697befc14a4"
+    },
+    "verification.csv": {
+      "bytes": 25,
+      "sha256": "88eb970f4841cc8dfded9fa18c27ce495639d3de945343de7c830dcbde914171"
+    }
+  },
+  "formatVersion": 1,
+  "lastBuild": 3096543,
+  "notice": "© 2014 CCP hf. All rights reserved. \"EVE\", \"EVE Online\", \"CCP\", and all related logos and images are trademarks or registered trademarks of CCP hf. This data is derived from the EVE Online Static Data Export and is the property of CCP hf.; see NOTICE. No official affiliation or endorsement by CCP Games is stated or implied.",
+  "releaseDate": "2025-11-18T11:13:42Z",
+  "source": "https://developers.eveonline.com/static-data/tranquility",
+  "tables": {
+    "blueprints": {
+      "added": 26,
+      "changed": 7,
+      "removed": 0
+    },
+    "categories": {
+      "added": 1,
+      "changed": 0,
+      "removed": 0
+    },
+    "certificates": {
+      "added": 2,
+      "changed": 20,
+      "removed": 0
+    },
+    "dbuffCollections": {
+      "added": 43,
+      "changed": 1,
+      "removed": 0
+    },
+    "dogmaAttributes": {
+      "added": 37,
+      "changed": 2,
+      "removed": 0
+    },
+    "dogmaEffects": {
+      "added": 47,
+      "changed": 10,
+      "removed": 0
+    },
+    "dynamicItemAttributes": {
+      "added": 37,
+      "changed": 0,
+      "removed": 0
+    },
+    "freelanceJobSchemas": {
+      "added": 1,
+      "changed": 0,
+      "changelogFlags": [
+        "fileAdded"
+      ],
+      "removed": 0
+    },
+    "graphics": {
+      "added": 42,
+      "changed": 0,
+      "removed": 0
+    },
+    "groups": {
+      "added": 18,
+      "changed": 2,
+      "removed": 0
+    },
+    "icons": {
+      "added": 55,
+      "changed": 0,
+      "removed": 0
+    },
+    "mapSolarSystems": {
+      "added": 0,
+      "changed": 5432,
+      "changelogFlags": [
+        "schemaChanged"
+      ],
+      "removed": 0,
+      "schemaOps": {
+        "add_path": 2
+      }
+    },
+    "marketGroups": {
+      "added": 44,
+      "changed": 12,
+      "removed": 0
+    },
+    "masteries": {
+      "added": 5,
+      "changed": 0,
+      "removed": 0
+    },
+    "npcCharacters": {
+      "added": 1,
+      "changed": 0,
+      "removed": 0
+    },
+    "npcCorporations": {
+      "added": 0,
+      "changed": 36,
+      "removed": 0
+    },
+    "planetResources": {
+      "added": 0,
+      "changed": 3462,
+      "changelogFlags": [
+        "schemaChanged"
+      ],
+      "removed": 0,
+      "schemaOps": {
+        "add_path": 3,
+        "drop_path": 5,
+        "rename_path": 2
+      }
+    },
+    "skinLicenses": {
+      "added": 10,
+      "changed": 0,
+      "removed": 0
+    },
+    "skinMaterials": {
+      "added": 1,
+      "changed": 5,
+      "removed": 0
+    },
+    "skins": {
+      "added": 10,
+      "changed": 15,
+      "removed": 0
+    },
+    "sovereigntyUpgrades": {
+      "added": 22,
+      "changed": 18,
+      "changelogFlags": [
+        "schemaChanged"
+      ],
+      "removed": 0,
+      "schemaOps": {
+        "add_path": 2,
+        "rename_path": 3
+      }
+    },
+    "typeBonus": {
+      "added": 10,
+      "changed": 17,
+      "removed": 0
+    },
+    "typeDogma": {
+      "added": 150,
+      "changed": 689,
+      "removed": 3
+    },
+    "typeMaterials": {
+      "added": 40,
+      "changed": 6,
+      "removed": 0
+    },
+    "types": {
+      "added": 321,
+      "changed": 664,
+      "removed": 0
+    }
+  },
+  "totals": {
+    "added": 923,
+    "changed": 10398,
+    "deltaLines": 11337,
+    "removed": 3,
+    "schemaOps": 17,
+    "tablesChanged": 25,
+    "tablesCompared": 52
+  },
+  "verification": {
+    "changelogCoverage": "complete",
+    "errorDetails": [],
+    "errors": 0,
+    "info": 0,
+    "mode": "verify-all",
+    "status": "ok"
+  }
+}
