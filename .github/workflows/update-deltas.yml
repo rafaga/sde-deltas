@@ -4,12 +4,12 @@ name: update-deltas
 # A backlog (first run, or after an outage) is worked off in batches: run it by hand with a larger max_builds.
 on:
   schedule:
-    - cron: "17 */6 * * *"
+    - cron: "17 */4 * * *"
   workflow_dispatch:
     inputs:
       max_builds:
         description: "Maximum number of builds to process in this run"
-        default: "10"
+        default: "20"
 
 permissions:
   contents: write
@@ -41,7 +41,7 @@ jobs:
 
       - name: Process new builds
         env:
-          MAX_BUILDS: ${{ github.event.inputs.max_builds || '10' }}
+          MAX_BUILDS: ${{ github.event.inputs.max_builds || '20' }}
         # every table of every pair is compared (no separate weekly check needed)
         run: python scripts/process_latest.py --max-builds "$MAX_BUILDS"
 
