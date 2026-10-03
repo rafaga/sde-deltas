@@ -1,0 +1,60 @@
+{
+  "build": 3054210,
+  "files": {
+    "delta.jsonl.gz": {
+      "bytes": 464,
+      "sha256": "a1d857d354460ced4697ee5b2ab0802fb932ed818338d15d97a6f58a2b938752"
+    },
+    "schema_delta.csv": {
+      "bytes": 23,
+      "sha256": "06b08f3ca326bcf115cbe00328258d0fa60856a9d993542b82818ecd06cef5ea"
+    },
+    "summary.csv": {
+      "bytes": 1747,
+      "sha256": "7703dba0e7fccf7ef69e952a0829b80b830aee8d3ceff3588f54e990aac591b2"
+    },
+    "verification.csv": {
+      "bytes": 25,
+      "sha256": "88eb970f4841cc8dfded9fa18c27ce495639d3de945343de7c830dcbde914171"
+    }
+  },
+  "formatVersion": 1,
+  "lastBuild": 3049853,
+  "notice": "© 2014 CCP hf. All rights reserved. \"EVE\", \"EVE Online\", \"CCP\", and all related logos and images are trademarks or registered trademarks of CCP hf. This data is derived from the EVE Online Static Data Export and is the property of CCP hf.; see NOTICE. No official affiliation or endorsement by CCP Games is stated or implied.",
+  "releaseDate": "2025-10-10T11:14:24Z",
+  "source": "https://developers.eveonline.com/static-data/tranquility",
+  "tables": {
+    "skinMaterials": {
+      "added": 1,
+      "changed": 0,
+      "removed": 0
+    },
+    "skins": {
+      "added": 0,
+      "changed": 6,
+      "removed": 0
+    },
+    "types": {
+      "added": 0,
+      "changed": 1,
+      "removed": 0
+    }
+  },
+  "totals": {
+    "added": 1,
+    "changed": 7,
+    "deltaLines": 8,
+    "removed": 0,
+    "schemaOps": 0,
+    "tablesChanged": 3,
+    "tablesCompared": 51
+  },
+  "verification": {
+    "changelogCoverage": "complete",
+    "errorDetails": [],
+    "errors": 0,
+    "info": 0,
+    "mode": "verify-all",
+    "status": "ok"
+  }
+}
