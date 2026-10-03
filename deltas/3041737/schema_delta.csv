@@ -1,0 +1,64 @@
+table,kind,field_path
+dogmaAttributes,field_renamed,categoryID -> attributeCategoryID
+dogmaAttributes,field_removed,attributeID
+dogmaEffects,field_renamed,effectCategory -> effectCategoryID
+dogmaEffects,field_renamed,effectName -> name
+dogmaEffects,field_removed,effectID
+dogmaEffects,field_removed,sfxName
+mapAsteroidBelts,field_renamed,name.es -> uniqueName.es
+mapAsteroidBelts,field_renamed,name.fr -> uniqueName.fr
+mapAsteroidBelts,field_renamed,name.ja -> uniqueName.ja
+mapAsteroidBelts,field_renamed,name.ko -> uniqueName.ko
+mapAsteroidBelts,field_renamed,name.zh -> uniqueName.zh
+mapAsteroidBelts,field_removed,name.de
+mapAsteroidBelts,field_removed,name.en
+mapAsteroidBelts,field_removed,name.ru
+mapAsteroidBelts,field_added,uniqueName.de
+mapAsteroidBelts,field_added,uniqueName.en
+mapAsteroidBelts,field_added,uniqueName.ru
+mapMoons,field_renamed,name.de -> uniqueName.de
+mapMoons,field_renamed,name.en -> uniqueName.en
+mapMoons,field_renamed,name.es -> uniqueName.es
+mapMoons,field_renamed,name.fr -> uniqueName.fr
+mapMoons,field_renamed,name.ja -> uniqueName.ja
+mapMoons,field_renamed,name.ko -> uniqueName.ko
+mapMoons,field_renamed,name.ru -> uniqueName.ru
+mapMoons,field_renamed,name.zh -> uniqueName.zh
+mapPlanets,field_renamed,name.de -> uniqueName.de
+mapPlanets,field_renamed,name.fr -> uniqueName.fr
+mapPlanets,field_renamed,name.ja -> uniqueName.ja
+mapPlanets,field_renamed,name.ko -> uniqueName.ko
+mapPlanets,field_renamed,name.ru -> uniqueName.ru
+mapPlanets,field_renamed,name.zh -> uniqueName.zh
+mapPlanets,field_removed,name.en
+mapPlanets,field_removed,name.es
+mapPlanets,field_added,uniqueName.en
+mapPlanets,field_added,uniqueName.es
+npcCharacters,table_renamed,agents -> npcCharacters
+npcCharacters,field_renamed,agentTypeID -> agent.agentTypeID
+npcCharacters,field_renamed,divisionID -> agent.divisionID
+npcCharacters,field_renamed,isLocator -> agent.isLocator
+npcCharacters,field_renamed,level -> agent.level
+npcCharacters,field_added,ancestryID
+npcCharacters,field_added,bloodlineID
+npcCharacters,field_added,careerID
+npcCharacters,field_added,ceo
+npcCharacters,field_added,description
+npcCharacters,field_added,gender
+npcCharacters,field_added,name.de
+npcCharacters,field_added,name.en
+npcCharacters,field_added,name.es
+npcCharacters,field_added,name.fr
+npcCharacters,field_added,name.ja
+npcCharacters,field_added,name.ko
+npcCharacters,field_added,name.ru
+npcCharacters,field_added,name.zh
+npcCharacters,field_added,raceID
+npcCharacters,field_added,schoolID
+npcCharacters,field_added,skills.[].typeID
+npcCharacters,field_added,specialityID
+npcCharacters,field_added,startDate
+npcCharacters,field_added,uniqueName
+researchAgents,field_removed,skills.[].typeID
+skinMaterials,field_removed,skinMaterialID
+skins,field_removed,skinID

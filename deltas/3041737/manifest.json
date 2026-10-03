@@ -1,0 +1,172 @@
+{
+  "build": 3041737,
+  "files": {
+    "delta.jsonl.gz": {
+      "bytes": 958418,
+      "sha256": "c564d06ade77070b810903694df27a3d182dafe60d3fb8569ae30fb88ed3217e"
+    },
+    "schema_delta.csv": {
+      "bytes": 2821,
+      "sha256": "aed187e5797120bf7dbf250b1644430032514a770ce6bedf24a3f8733d46cc8e"
+    },
+    "summary.csv": {
+      "bytes": 1962,
+      "sha256": "93db3e07c9191742e94a18e89cbb61dfb94e19e7a24771651fe7d15c3a8c2003"
+    },
+    "verification.csv": {
+      "bytes": 25,
+      "sha256": "88eb970f4841cc8dfded9fa18c27ce495639d3de945343de7c830dcbde914171"
+    }
+  },
+  "formatVersion": 1,
+  "lastBuild": 3031812,
+  "notice": "© 2014 CCP hf. All rights reserved. \"EVE\", \"EVE Online\", \"CCP\", and all related logos and images are trademarks or registered trademarks of CCP hf. This data is derived from the EVE Online Static Data Export and is the property of CCP hf.; see NOTICE. No official affiliation or endorsement by CCP Games is stated or implied.",
+  "releaseDate": "2025-09-29T13:52:57Z",
+  "source": "https://developers.eveonline.com/static-data/tranquility",
+  "tables": {
+    "dogmaAttributes": {
+      "added": 0,
+      "changed": 2775,
+      "changelogFlags": [
+        "schemaChanged"
+      ],
+      "removed": 0,
+      "schemaOps": {
+        "drop_path": 1,
+        "rename_path": 1
+      }
+    },
+    "dogmaEffects": {
+      "added": 0,
+      "changed": 3286,
+      "changelogFlags": [
+        "schemaChanged"
+      ],
+      "removed": 0,
+      "schemaOps": {
+        "drop_path": 2,
+        "rename_path": 2
+      }
+    },
+    "dynamicItemAttributes": {
+      "added": 0,
+      "changed": 0,
+      "changelogFlags": [
+        "schemaChanged"
+      ],
+      "removed": 0
+    },
+    "mapAsteroidBelts": {
+      "added": 0,
+      "changed": 46,
+      "changelogFlags": [
+        "schemaChanged"
+      ],
+      "removed": 0,
+      "schemaOps": {
+        "add_path": 3,
+        "drop_path": 3,
+        "rename_path": 5
+      }
+    },
+    "mapMoons": {
+      "added": 0,
+      "changed": 137,
+      "changelogFlags": [
+        "schemaChanged"
+      ],
+      "removed": 0,
+      "schemaOps": {
+        "rename_path": 8
+      }
+    },
+    "mapPlanets": {
+      "added": 0,
+      "changed": 43,
+      "changelogFlags": [
+        "schemaChanged"
+      ],
+      "removed": 0,
+      "schemaOps": {
+        "add_path": 2,
+        "drop_path": 2,
+        "rename_path": 6
+      }
+    },
+    "npcCharacters": {
+      "added": 424,
+      "changed": 10878,
+      "changelogFlags": [
+        "fileAdded",
+        "renamedFrom:agents"
+      ],
+      "removed": 4,
+      "renamedFrom": "agents",
+      "schemaOps": {
+        "add_path": 20,
+        "rename_path": 4,
+        "rename_table": 1
+      }
+    },
+    "npcStations": {
+      "added": 0,
+      "changed": 170,
+      "changelogFlags": [
+        "schemaChanged"
+      ],
+      "removed": 0
+    },
+    "researchAgents": {
+      "added": 0,
+      "changed": 0,
+      "changelogFlags": [
+        "fileRemoved"
+      ],
+      "removed": 422
+    },
+    "skinMaterials": {
+      "added": 0,
+      "changed": 817,
+      "changelogFlags": [
+        "schemaChanged"
+      ],
+      "removed": 0,
+      "schemaOps": {
+        "drop_path": 1
+      }
+    },
+    "skins": {
+      "added": 0,
+      "changed": 6660,
+      "changelogFlags": [
+        "schemaChanged"
+      ],
+      "removed": 0,
+      "schemaOps": {
+        "drop_path": 1
+      }
+    },
+    "typeDogma": {
+      "added": 0,
+      "changed": 1,
+      "removed": 0
+    }
+  },
+  "totals": {
+    "added": 424,
+    "changed": 24813,
+    "deltaLines": 14817,
+    "removed": 426,
+    "schemaOps": 62,
+    "tablesChanged": 12,
+    "tablesCompared": 52
+  },
+  "verification": {
+    "changelogCoverage": "complete",
+    "errorDetails": [],
+    "errors": 0,
+    "info": 0,
+    "mode": "verify-all",
+    "status": "ok"
+  }
+}

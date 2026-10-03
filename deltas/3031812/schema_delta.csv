@@ -1,0 +1,35 @@
+table,kind,field_path
+dynamicItemAttributes,field_added,attributeIDs.[].highIsGood
+mapAsteroidBelts,field_added,name.de
+mapAsteroidBelts,field_added,name.en
+mapAsteroidBelts,field_added,name.es
+mapAsteroidBelts,field_added,name.fr
+mapAsteroidBelts,field_added,name.ja
+mapAsteroidBelts,field_added,name.ko
+mapAsteroidBelts,field_added,name.ru
+mapAsteroidBelts,field_added,name.zh
+mapMoons,field_renamed,planetAttributes.heightMap1 -> attributes.heightMap1
+mapMoons,field_renamed,planetAttributes.heightMap2 -> attributes.heightMap2
+mapMoons,field_renamed,planetAttributes.shaderPreset -> attributes.shaderPreset
+mapMoons,field_added,name.de
+mapMoons,field_added,name.en
+mapMoons,field_added,name.es
+mapMoons,field_added,name.fr
+mapMoons,field_added,name.ja
+mapMoons,field_added,name.ko
+mapMoons,field_added,name.ru
+mapMoons,field_added,name.zh
+mapPlanets,field_renamed,planetAttributes.heightMap1 -> attributes.heightMap1
+mapPlanets,field_renamed,planetAttributes.heightMap2 -> attributes.heightMap2
+mapPlanets,field_renamed,planetAttributes.shaderPreset -> attributes.shaderPreset
+mapPlanets,field_removed,planetAttributes.population
+mapPlanets,field_added,attributes.population
+mapPlanets,field_added,name.de
+mapPlanets,field_added,name.en
+mapPlanets,field_added,name.es
+mapPlanets,field_added,name.fr
+mapPlanets,field_added,name.ja
+mapPlanets,field_added,name.ko
+mapPlanets,field_added,name.ru
+mapPlanets,field_added,name.zh
+mapPlanets,field_added,orbitID

@@ -1,0 +1,92 @@
+{
+  "build": 3031812,
+  "files": {
+    "delta.jsonl.gz": {
+      "bytes": 907060,
+      "sha256": "23c564fc7a6a576865254beb7c87ff76a6c36f84bc54e72e8660bb4411e12ce8"
+    },
+    "schema_delta.csv": {
+      "bytes": 1493,
+      "sha256": "e85b3ddfb6baee18f3fb316fc8af8cf771f437e3b89c0dfe6572604dbf54facf"
+    },
+    "summary.csv": {
+      "bytes": 1840,
+      "sha256": "2274d57ab38b259a5969a6e9540f09bf51260d5fec6c94aa839d20f8540070ae"
+    },
+    "verification.csv": {
+      "bytes": 25,
+      "sha256": "88eb970f4841cc8dfded9fa18c27ce495639d3de945343de7c830dcbde914171"
+    }
+  },
+  "formatVersion": 1,
+  "lastBuild": 3030547,
+  "notice": "© 2014 CCP hf. All rights reserved. \"EVE\", \"EVE Online\", \"CCP\", and all related logos and images are trademarks or registered trademarks of CCP hf. This data is derived from the EVE Online Static Data Export and is the property of CCP hf.; see NOTICE. No official affiliation or endorsement by CCP Games is stated or implied.",
+  "releaseDate": "2025-09-22T11:19:13Z",
+  "source": "https://developers.eveonline.com/static-data/tranquility",
+  "tables": {
+    "dynamicItemAttributes": {
+      "added": 0,
+      "changed": 12,
+      "changelogFlags": [
+        "schemaChanged"
+      ],
+      "removed": 0,
+      "schemaOps": {
+        "add_path": 1
+      }
+    },
+    "mapAsteroidBelts": {
+      "added": 0,
+      "changed": 7385,
+      "changelogFlags": [
+        "schemaChanged"
+      ],
+      "removed": 0,
+      "schemaOps": {
+        "add_path": 8
+      }
+    },
+    "mapMoons": {
+      "added": 0,
+      "changed": 342170,
+      "changelogFlags": [
+        "schemaChanged"
+      ],
+      "removed": 0,
+      "schemaOps": {
+        "add_path": 8,
+        "rename_path": 3
+      }
+    },
+    "mapPlanets": {
+      "added": 0,
+      "changed": 67961,
+      "changelogFlags": [
+        "schemaChanged"
+      ],
+      "removed": 0,
+      "schemaOps": {
+        "add_path": 10,
+        "drop_path": 1,
+        "rename_path": 3
+      }
+    }
+  },
+  "totals": {
+    "added": 0,
+    "changed": 417528,
+    "deltaLines": 264708,
+    "removed": 0,
+    "schemaOps": 34,
+    "tablesChanged": 4,
+    "tablesCompared": 52
+  },
+  "verification": {
+    "changelogCoverage": "complete",
+    "errorDetails": [],
+    "errors": 0,
+    "info": 0,
+    "mode": "verify-all",
+    "status": "ok"
+  }
+}
