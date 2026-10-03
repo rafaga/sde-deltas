@@ -27,6 +27,10 @@ jobs:
       SDE_USER_AGENT: sde-deltas (${{ github.server_url }}/${{ github.repository }})
     steps:
       - uses: actions/checkout@v4
+        with:
+          # A run that waited in the concurrency queue checks out the commit that was current when it was
+          # triggered, which can be stale; always start from the latest default branch instead.
+          ref: ${{ github.event.repository.default_branch }}
 
       - uses: actions/setup-python@v5
         with:
@@ -51,5 +55,7 @@ jobs:
           else
             latest=$(python -c "import json; print(json.load(open('deltas/index.json'))['latestBuild'])")
             git commit -m "Add deltas up to build ${latest}"
+            # someone may have pushed (code, docs) while this run was working: rebase our commit on top
+            git pull --rebase origin "${GITHUB_REF_NAME}"
             git push
           fi
