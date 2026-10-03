@@ -1,0 +1,12 @@
+# internal handoff notes for Claude sessions (Spanish, not part of the public repo)
+/CLAUDE.md
+
+# working caches: changelogs and SDE zips downloaded while processing (hundreds of MB)
+/work/
+/sde_delta_out/
+/sde_changelog_out/
+*.zip
+*.part
+/deltas/*.tmp/
+__pycache__/
+*.pyc

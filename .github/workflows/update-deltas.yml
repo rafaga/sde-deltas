@@ -1,0 +1,55 @@
+name: update-deltas
+
+# Checks CCP's SDE for new builds a few times a day and commits one delta per new build.
+# A backlog (first run, or after an outage) is worked off in batches: run it by hand with a larger max_builds.
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      max_builds:
+        description: "Maximum number of builds to process in this run"
+        default: "10"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-deltas
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    env:
+      # CCP asks clients to identify themselves: the repository URL is the contact
+      SDE_USER_AGENT: sde-deltas (${{ github.server_url }}/${{ github.repository }})
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Tests
+        run: python -m unittest discover -s tests
+
+      - name: Process new builds
+        env:
+          MAX_BUILDS: ${{ github.event.inputs.max_builds || '10' }}
+        # every table of every pair is compared (no separate weekly check needed)
+        run: python scripts/process_latest.py --max-builds "$MAX_BUILDS"
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add deltas CHANGELOG.md
+          if git diff --cached --quiet; then
+            echo "No new builds."
+          else
+            latest=$(python -c "import json; print(json.load(open('deltas/index.json'))['latestBuild'])")
+            git commit -m "Add deltas up to build ${latest}"
+            git push
+          fi
