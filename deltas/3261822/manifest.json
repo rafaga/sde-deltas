@@ -1,0 +1,125 @@
+{
+  "build": 3261822,
+  "files": {
+    "delta.jsonl.gz": {
+      "bytes": 39538,
+      "sha256": "cb090146df32ebfd7c0163e78ca99f1ad640e7db6e00803284a480680d4e4374"
+    },
+    "schema_delta.csv": {
+      "bytes": 23,
+      "sha256": "06b08f3ca326bcf115cbe00328258d0fa60856a9d993542b82818ecd06cef5ea"
+    },
+    "summary.csv": {
+      "bytes": 1954,
+      "sha256": "4e7f3e63bfc11150010d8abdedae3c85570e5b912bad9d71da76233e7a9ac314"
+    },
+    "verification.csv": {
+      "bytes": 25,
+      "sha256": "88eb970f4841cc8dfded9fa18c27ce495639d3de945343de7c830dcbde914171"
+    }
+  },
+  "formatVersion": 1,
+  "lastBuild": 3253748,
+  "notice": "© 2014 CCP hf. All rights reserved. \"EVE\", \"EVE Online\", \"CCP\", and all related logos and images are trademarks or registered trademarks of CCP hf. This data is derived from the EVE Online Static Data Export and is the property of CCP hf.; see NOTICE. No official affiliation or endorsement by CCP Games is stated or implied.",
+  "releaseDate": "2026-03-18T11:30:17Z",
+  "source": "https://developers.eveonline.com/static-data/tranquility",
+  "tables": {
+    "blueprints": {
+      "added": 4,
+      "changed": 11,
+      "removed": 0
+    },
+    "dbuffCollections": {
+      "added": 4,
+      "changed": 0,
+      "removed": 0
+    },
+    "dogmaAttributes": {
+      "added": 4,
+      "changed": 0,
+      "removed": 0
+    },
+    "dogmaEffects": {
+      "added": 10,
+      "changed": 7,
+      "removed": 0
+    },
+    "groups": {
+      "added": 1,
+      "changed": 4,
+      "removed": 0
+    },
+    "icons": {
+      "added": 4,
+      "changed": 0,
+      "removed": 0
+    },
+    "marketGroups": {
+      "added": 0,
+      "changed": 7,
+      "removed": 0
+    },
+    "npcCorporations": {
+      "added": 0,
+      "changed": 15,
+      "removed": 0
+    },
+    "skinLicenses": {
+      "added": 18,
+      "changed": 0,
+      "removed": 0
+    },
+    "skinMaterials": {
+      "added": 4,
+      "changed": 0,
+      "removed": 0
+    },
+    "skins": {
+      "added": 18,
+      "changed": 0,
+      "removed": 0
+    },
+    "stationOperations": {
+      "added": 0,
+      "changed": 6,
+      "removed": 0
+    },
+    "typeBonus": {
+      "added": 0,
+      "changed": 14,
+      "removed": 2
+    },
+    "typeDogma": {
+      "added": 13,
+      "changed": 127,
+      "removed": 2
+    },
+    "typeMaterials": {
+      "added": 4,
+      "changed": 0,
+      "removed": 0
+    },
+    "types": {
+      "added": 82,
+      "changed": 88,
+      "removed": 0
+    }
+  },
+  "totals": {
+    "added": 166,
+    "changed": 279,
+    "deltaLines": 449,
+    "removed": 4,
+    "schemaOps": 0,
+    "tablesChanged": 16,
+    "tablesCompared": 56
+  },
+  "verification": {
+    "changelogCoverage": "complete",
+    "errorDetails": [],
+    "errors": 0,
+    "info": 0,
+    "mode": "verify-all",
+    "status": "ok"
+  }
+}

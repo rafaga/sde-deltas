@@ -1,0 +1,53 @@
+{
+  "build": 3239023,
+  "files": {
+    "delta.jsonl.gz": {
+      "bytes": 1549,
+      "sha256": "0dce7bc0785e58e8114e3b5b3ebe40c8bed75c36981d5f8303c8ab0e1c7aa042"
+    },
+    "schema_delta.csv": {
+      "bytes": 1036,
+      "sha256": "9d1c5c19af8335438339fb0bcc0055e65a74a5bdc60c1f90bfb4c61b7c48fe18"
+    },
+    "summary.csv": {
+      "bytes": 1907,
+      "sha256": "3d883c5f328513fbadb542f7242dde752f115e22b4116da1b3af44c421fb9039"
+    },
+    "verification.csv": {
+      "bytes": 25,
+      "sha256": "88eb970f4841cc8dfded9fa18c27ce495639d3de945343de7c830dcbde914171"
+    }
+  },
+  "formatVersion": 1,
+  "lastBuild": 3236751,
+  "notice": "© 2014 CCP hf. All rights reserved. \"EVE\", \"EVE Online\", \"CCP\", and all related logos and images are trademarks or registered trademarks of CCP hf. This data is derived from the EVE Online Static Data Export and is the property of CCP hf.; see NOTICE. No official affiliation or endorsement by CCP Games is stated or implied.",
+  "releaseDate": "2026-03-04T11:18:16Z",
+  "source": "https://developers.eveonline.com/static-data/tranquility",
+  "tables": {
+    "mercenaryTacticalOperations": {
+      "added": 3,
+      "changed": 0,
+      "changelogFlags": [
+        "fileAdded"
+      ],
+      "removed": 0
+    }
+  },
+  "totals": {
+    "added": 3,
+    "changed": 0,
+    "deltaLines": 3,
+    "removed": 0,
+    "schemaOps": 0,
+    "tablesChanged": 1,
+    "tablesCompared": 55
+  },
+  "verification": {
+    "changelogCoverage": "complete",
+    "errorDetails": [],
+    "errors": 0,
+    "info": 0,
+    "mode": "verify-all",
+    "status": "ok"
+  }
+}

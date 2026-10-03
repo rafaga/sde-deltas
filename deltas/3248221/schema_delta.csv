@@ -1,0 +1,7 @@
+table,kind,field_path
+mapSecondarySuns,field_added,effectBeaconTypeID
+mapSecondarySuns,field_added,position.x
+mapSecondarySuns,field_added,position.y
+mapSecondarySuns,field_added,position.z
+mapSecondarySuns,field_added,solarSystemID
+mapSecondarySuns,field_added,typeID

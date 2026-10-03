@@ -3,6 +3,214 @@
 Changes between consecutive builds of the EVE Online Static Data Export, generated from `deltas/*/manifest.json`.
 It lists tables and counts only; the values are in `deltas/<build>/delta.jsonl.gz`.
 
+## Build 3328718 (2026-05-01) - base 3326071
+
+- 8 tables changed: +36 added, -0 removed, ~27 modified, 0 schema operations
+  - `dungeons`: +0 -0 ~1
+  - `icons`: +3 -0 ~0
+  - `skinLicenses`: +7 -0 ~0
+  - `skinMaterials`: +4 -0 ~0
+  - `skins`: +7 -0 ~14
+  - `typeDogma`: +4 -0 ~0
+  - `typeLists`: +0 -0 ~1
+  - `types`: +11 -0 ~11
+
+## Build 3326071 (2026-04-30) - base 3321490
+
+- 16 tables changed: +645 added, -0 removed, ~43 modified, 0 schema operations
+  - `blueprints`: +8 -0 ~0
+  - `dbuffCollections`: +10 -0 ~0
+  - `dogmaAttributes`: +1 -0 ~1
+  - `dogmaEffects`: +0 -0 ~1
+  - `dungeons`: +4 -0 ~0
+  - `graphics`: +5 -0 ~0
+  - `groups`: +9 -0 ~0
+  - `icons`: +6 -0 ~0
+  - `npcCorporations`: +0 -0 ~12
+  - `skinLicenses`: +16 -0 ~0
+  - `skinMaterials`: +4 -0 ~0
+  - `skins`: +16 -0 ~0
+  - `typeDogma`: +231 -0 ~3
+  - `typeLists`: +9 -0 ~2
+  - `typeMaterials`: +11 -0 ~0
+  - `types`: +315 -0 ~24
+
+## Build 3321490 (2026-04-28) - base 3316380
+
+- 5 tables changed: +1837 added, -0 removed, ~3 modified, 7 schema operations
+  - `archetypes`: +34 -0 ~0
+  - `dungeons`: +1364 -0 ~0
+  - `mercenaryTacticalOperations`: +0 -0 ~3 [schema: add_path x4, drop_path x3]
+  - `typeLists`: +438 -0 ~0
+  - `types`: +1 -0 ~0
+
+## Build 3316380 (2026-04-23) - base 3311451
+
+- 5 tables changed: +0 added, -0 removed, ~85 modified, 0 schema operations
+  - `groups`: +0 -0 ~2
+  - `npcCorporations`: +0 -0 ~1
+  - `skins`: +0 -0 ~11
+  - `typeBonus`: +0 -0 ~1
+  - `types`: +0 -0 ~70
+
+## Build 3311451 (2026-04-21) - base 3304841
+
+- 4 tables changed: +53 added, -0 removed, ~7 modified, 0 schema operations
+  - `graphics`: +6 -0 ~0
+  - `icons`: +22 -0 ~0
+  - `mapStargates`: +0 -0 ~7
+  - `types`: +25 -0 ~0
+
+## Build 3304841 (2026-04-16) - base 3300615
+
+- 2 tables changed: +10 added, -0 removed, ~26 modified, 0 schema operations
+  - `typeDogma`: +5 -0 ~26
+  - `types`: +5 -0 ~0
+
+## Build 3300615 (2026-04-14) - base 3294658
+
+- 12 tables changed: +66 added, -0 removed, ~285 modified, 0 schema operations
+  - `graphics`: +3 -0 ~0
+  - `icons`: +2 -0 ~0
+  - `mapConstellations`: +0 -0 ~9
+  - `mapMoons`: +0 -0 ~22
+  - `mapPlanets`: +0 -0 ~36
+  - `mapRegions`: +0 -0 ~1
+  - `mapSolarSystems`: +0 -0 ~81
+  - `mapStargates`: +2 -0 ~135
+  - `mapStars`: +0 -0 ~1
+  - `npcStations`: +53 -0 ~0
+  - `stationOperations`: +1 -0 ~0
+  - `types`: +5 -0 ~0
+
+## Build 3294658 (2026-04-09) - base 3284752
+
+- 2 tables changed: +0 added, -0 removed, ~23 modified, 0 schema operations
+  - `typeDogma`: +0 -0 ~17
+  - `types`: +0 -0 ~6
+
+## Build 3284752 (2026-03-31) - base 3281779
+
+- 5 tables changed: +1 added, -0 removed, ~24 modified, 0 schema operations
+  - `dogmaEffects`: +0 -0 ~1
+  - `marketGroups`: +1 -0 ~0
+  - `typeBonus`: +0 -0 ~5
+  - `typeDogma`: +0 -0 ~10
+  - `types`: +0 -0 ~8
+
+## Build 3281779 (2026-03-30) - base 3279491
+
+- 1 tables changed: +0 added, -0 removed, ~8227 modified, 1 schema operations
+  - `types`: +0 -0 ~8227 [schema: add_path x1]
+
+## Build 3279491 (2026-03-27) - base 3272045
+
+- 9 tables changed: +94 added, -0 removed, ~53 modified, 0 schema operations
+  - `compressibleTypes`: +2 -0 ~0
+  - `graphics`: +2 -0 ~0
+  - `icons`: +1 -0 ~0
+  - `skinMaterials`: +0 -0 ~4
+  - `skins`: +0 -0 ~12
+  - `typeBonus`: +0 -0 ~6
+  - `typeDogma`: +15 -0 ~2
+  - `typeMaterials`: +4 -0 ~0
+  - `types`: +70 -0 ~29
+
+## Build 3272045 (2026-03-24) - base 3270632
+
+- 4 tables changed: +0 added, -0 removed, ~30 modified, 0 schema operations
+  - `dbuffCollections`: +0 -0 ~4
+  - `groups`: +0 -0 ~1
+  - `typeDogma`: +0 -0 ~18
+  - `types`: +0 -0 ~7
+
+## Build 3270632 (2026-03-23) - base 3263238
+
+- 5 tables changed: +0 added, -0 removed, ~359 modified, 0 schema operations
+  - `dbuffCollections`: +0 -0 ~1
+  - `groups`: +0 -0 ~4
+  - `marketGroups`: +0 -0 ~1
+  - `typeBonus`: +0 -0 ~3
+  - `types`: +0 -0 ~350
+
+## Build 3263238 (2026-03-19) - base 3261822
+
+- 11 tables changed: +268 added, -0 removed, ~51 modified, 0 schema operations
+  - `dbuffCollections`: +19 -0 ~1
+  - `graphics`: +7 -0 ~0
+  - `groups`: +7 -0 ~0
+  - `icons`: +5 -0 ~0
+  - `marketGroups`: +2 -0 ~0
+  - `npcCharacters`: +3 -0 ~0
+  - `npcCorporations`: +0 -0 ~8
+  - `typeBonus`: +3 -0 ~0
+  - `typeDogma`: +83 -0 ~6
+  - `typeMaterials`: +9 -0 ~0
+  - `types`: +130 -0 ~36
+
+## Build 3261822 (2026-03-18) - base 3253748
+
+- 16 tables changed: +166 added, -4 removed, ~279 modified, 0 schema operations
+  - `blueprints`: +4 -0 ~11
+  - `dbuffCollections`: +4 -0 ~0
+  - `dogmaAttributes`: +4 -0 ~0
+  - `dogmaEffects`: +10 -0 ~7
+  - `groups`: +1 -0 ~4
+  - `icons`: +4 -0 ~0
+  - `marketGroups`: +0 -0 ~7
+  - `npcCorporations`: +0 -0 ~15
+  - `skinLicenses`: +18 -0 ~0
+  - `skinMaterials`: +4 -0 ~0
+  - `skins`: +18 -0 ~0
+  - `stationOperations`: +0 -0 ~6
+  - `typeBonus`: +0 -2 ~14
+  - `typeDogma`: +13 -2 ~127
+  - `typeMaterials`: +4 -0 ~0
+  - `types`: +82 -0 ~88
+
+## Build 3253748 (2026-03-12) - base 3248221
+
+- 3 tables changed: +0 added, -0 removed, ~32 modified, 0 schema operations
+  - `mapConstellations`: +0 -0 ~8
+  - `skinMaterials`: +0 -0 ~1
+  - `types`: +0 -0 ~23
+
+## Build 3248221 (2026-03-10) - base 3241024
+
+- 7 tables changed: +1104 added, -0 removed, ~69 modified, 0 schema operations
+  - `icons`: +20 -0 ~0
+  - `mapSecondarySuns`: +1038 -0 ~0
+  - `skinLicenses`: +8 -0 ~0
+  - `skinMaterials`: +1 -0 ~0
+  - `skins`: +8 -0 ~0
+  - `typeDogma`: +0 -0 ~69
+  - `types`: +29 -0 ~0
+
+## Build 3241024 (2026-03-05) - base 3239023
+
+- 11 tables changed: +3041 added, -0 removed, ~51 modified, 0 schema operations
+  - `dbuffCollections`: +0 -0 ~1
+  - `dogmaAttributes`: +0 -0 ~1
+  - `mapConstellations`: +9 -0 ~0
+  - `mapMoons`: +2287 -0 ~0
+  - `mapPlanets`: +446 -0 ~0
+  - `mapRegions`: +1 -0 ~1
+  - `mapSolarSystems`: +53 -0 ~27
+  - `mapStargates`: +192 -0 ~0
+  - `mapStars`: +53 -0 ~0
+  - `typeBonus`: +0 -0 ~2
+  - `types`: +0 -0 ~19
+
+## Build 3239023 (2026-03-04) - base 3236751
+
+- 1 tables changed: +3 added, -0 removed, ~0 modified, 0 schema operations
+  - `mercenaryTacticalOperations`: +3 -0 ~0
+
+## Build 3236751 (2026-03-03) - base 3231590
+
+- 1 tables changed: +0 added, -0 removed, ~2 modified, 0 schema operations
+  - `types`: +0 -0 ~2
+
 ## Build 3231590 (2026-02-27) - base 3226738
 
 - 3 tables changed: +0 added, -0 removed, ~64 modified, 0 schema operations

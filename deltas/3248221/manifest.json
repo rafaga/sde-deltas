@@ -1,0 +1,83 @@
+{
+  "build": 3248221,
+  "files": {
+    "delta.jsonl.gz": {
+      "bytes": 70107,
+      "sha256": "95243b5f1a1e2dec386dd770cf86d8d5330119950dbb64aa3eaa37e30922d1d5"
+    },
+    "schema_delta.csv": {
+      "bytes": 276,
+      "sha256": "70fa83d6e2c2dc88b16105833f53336e1ee6d4d504d9d1b4cf5aa93c8b16d0f1"
+    },
+    "summary.csv": {
+      "bytes": 1950,
+      "sha256": "17c3ca5950e631970d1ad98128092f216e2b64a3dc295abe3f35c95d3db4405f"
+    },
+    "verification.csv": {
+      "bytes": 25,
+      "sha256": "88eb970f4841cc8dfded9fa18c27ce495639d3de945343de7c830dcbde914171"
+    }
+  },
+  "formatVersion": 1,
+  "lastBuild": 3241024,
+  "notice": "© 2014 CCP hf. All rights reserved. \"EVE\", \"EVE Online\", \"CCP\", and all related logos and images are trademarks or registered trademarks of CCP hf. This data is derived from the EVE Online Static Data Export and is the property of CCP hf.; see NOTICE. No official affiliation or endorsement by CCP Games is stated or implied.",
+  "releaseDate": "2026-03-10T11:20:29Z",
+  "source": "https://developers.eveonline.com/static-data/tranquility",
+  "tables": {
+    "icons": {
+      "added": 20,
+      "changed": 0,
+      "removed": 0
+    },
+    "mapSecondarySuns": {
+      "added": 1038,
+      "changed": 0,
+      "changelogFlags": [
+        "fileAdded"
+      ],
+      "removed": 0
+    },
+    "skinLicenses": {
+      "added": 8,
+      "changed": 0,
+      "removed": 0
+    },
+    "skinMaterials": {
+      "added": 1,
+      "changed": 0,
+      "removed": 0
+    },
+    "skins": {
+      "added": 8,
+      "changed": 0,
+      "removed": 0
+    },
+    "typeDogma": {
+      "added": 0,
+      "changed": 69,
+      "removed": 0
+    },
+    "types": {
+      "added": 29,
+      "changed": 0,
+      "removed": 0
+    }
+  },
+  "totals": {
+    "added": 1104,
+    "changed": 69,
+    "deltaLines": 1173,
+    "removed": 0,
+    "schemaOps": 0,
+    "tablesChanged": 7,
+    "tablesCompared": 56
+  },
+  "verification": {
+    "changelogCoverage": "complete",
+    "errorDetails": [],
+    "errors": 0,
+    "info": 0,
+    "mode": "verify-all",
+    "status": "ok"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "build": 3300615,
+  "files": {
+    "delta.jsonl.gz": {
+      "bytes": 20427,
+      "sha256": "aaec2ed75a862feffa42d5fc0ca346527672c6da2f6c2707cff66bd149b6b576"
+    },
+    "schema_delta.csv": {
+      "bytes": 23,
+      "sha256": "06b08f3ca326bcf115cbe00328258d0fa60856a9d993542b82818ecd06cef5ea"
+    },
+    "summary.csv": {
+      "bytes": 1944,
+      "sha256": "ba41b7e11a1da9775a19bc908258ad06f2af504f1f99ed8e9c4200fbfafcaec3"
+    },
+    "verification.csv": {
+      "bytes": 25,
+      "sha256": "88eb970f4841cc8dfded9fa18c27ce495639d3de945343de7c830dcbde914171"
+    }
+  },
+  "formatVersion": 1,
+  "lastBuild": 3294658,
+  "notice": "© 2014 CCP hf. All rights reserved. \"EVE\", \"EVE Online\", \"CCP\", and all related logos and images are trademarks or registered trademarks of CCP hf. This data is derived from the EVE Online Static Data Export and is the property of CCP hf.; see NOTICE. No official affiliation or endorsement by CCP Games is stated or implied.",
+  "releaseDate": "2026-04-14T11:33:01Z",
+  "source": "https://developers.eveonline.com/static-data/tranquility",
+  "tables": {
+    "graphics": {
+      "added": 3,
+      "changed": 0,
+      "removed": 0
+    },
+    "icons": {
+      "added": 2,
+      "changed": 0,
+      "removed": 0
+    },
+    "mapConstellations": {
+      "added": 0,
+      "changed": 9,
+      "removed": 0
+    },
+    "mapMoons": {
+      "added": 0,
+      "changed": 22,
+      "removed": 0
+    },
+    "mapPlanets": {
+      "added": 0,
+      "changed": 36,
+      "removed": 0
+    },
+    "mapRegions": {
+      "added": 0,
+      "changed": 1,
+      "removed": 0
+    },
+    "mapSolarSystems": {
+      "added": 0,
+      "changed": 81,
+      "removed": 0
+    },
+    "mapStargates": {
+      "added": 2,
+      "changed": 135,
+      "removed": 0
+    },
+    "mapStars": {
+      "added": 0,
+      "changed": 1,
+      "removed": 0
+    },
+    "npcStations": {
+      "added": 53,
+      "changed": 0,
+      "removed": 0
+    },
+    "stationOperations": {
+      "added": 1,
+      "changed": 0,
+      "removed": 0
+    },
+    "types": {
+      "added": 5,
+      "changed": 0,
+      "removed": 0
+    }
+  },
+  "totals": {
+    "added": 66,
+    "changed": 285,
+    "deltaLines": 351,
+    "removed": 0,
+    "schemaOps": 0,
+    "tablesChanged": 12,
+    "tablesCompared": 56
+  },
+  "verification": {
+    "changelogCoverage": "complete",
+    "errorDetails": [],
+    "errors": 0,
+    "info": 0,
+    "mode": "verify-all",
+    "status": "ok"
+  }
+}

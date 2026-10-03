@@ -1,0 +1,100 @@
+{
+  "build": 3263238,
+  "files": {
+    "delta.jsonl.gz": {
+      "bytes": 61553,
+      "sha256": "fe7351712cf796d2aa9fcfd12e1573881009fa1585538d4970bedd37806662cb"
+    },
+    "schema_delta.csv": {
+      "bytes": 23,
+      "sha256": "06b08f3ca326bcf115cbe00328258d0fa60856a9d993542b82818ecd06cef5ea"
+    },
+    "summary.csv": {
+      "bytes": 1942,
+      "sha256": "6239f97989f92bf56c5ab04dd976abf94229653371dc1cd788a4433bf798c4d2"
+    },
+    "verification.csv": {
+      "bytes": 25,
+      "sha256": "88eb970f4841cc8dfded9fa18c27ce495639d3de945343de7c830dcbde914171"
+    }
+  },
+  "formatVersion": 1,
+  "lastBuild": 3261822,
+  "notice": "© 2014 CCP hf. All rights reserved. \"EVE\", \"EVE Online\", \"CCP\", and all related logos and images are trademarks or registered trademarks of CCP hf. This data is derived from the EVE Online Static Data Export and is the property of CCP hf.; see NOTICE. No official affiliation or endorsement by CCP Games is stated or implied.",
+  "releaseDate": "2026-03-19T11:22:06Z",
+  "source": "https://developers.eveonline.com/static-data/tranquility",
+  "tables": {
+    "dbuffCollections": {
+      "added": 19,
+      "changed": 1,
+      "removed": 0
+    },
+    "graphics": {
+      "added": 7,
+      "changed": 0,
+      "removed": 0
+    },
+    "groups": {
+      "added": 7,
+      "changed": 0,
+      "removed": 0
+    },
+    "icons": {
+      "added": 5,
+      "changed": 0,
+      "removed": 0
+    },
+    "marketGroups": {
+      "added": 2,
+      "changed": 0,
+      "removed": 0
+    },
+    "npcCharacters": {
+      "added": 3,
+      "changed": 0,
+      "removed": 0
+    },
+    "npcCorporations": {
+      "added": 0,
+      "changed": 8,
+      "removed": 0
+    },
+    "typeBonus": {
+      "added": 3,
+      "changed": 0,
+      "removed": 0
+    },
+    "typeDogma": {
+      "added": 83,
+      "changed": 6,
+      "removed": 0
+    },
+    "typeMaterials": {
+      "added": 9,
+      "changed": 0,
+      "removed": 0
+    },
+    "types": {
+      "added": 130,
+      "changed": 36,
+      "removed": 0
+    }
+  },
+  "totals": {
+    "added": 268,
+    "changed": 51,
+    "deltaLines": 319,
+    "removed": 0,
+    "schemaOps": 0,
+    "tablesChanged": 11,
+    "tablesCompared": 56
+  },
+  "verification": {
+    "changelogCoverage": "complete",
+    "errorDetails": [],
+    "errors": 0,
+    "info": 0,
+    "mode": "verify-all",
+    "status": "ok"
+  }
+}

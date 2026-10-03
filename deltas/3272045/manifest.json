@@ -1,0 +1,65 @@
+{
+  "build": 3272045,
+  "files": {
+    "delta.jsonl.gz": {
+      "bytes": 886,
+      "sha256": "31637c3b915df5681f5c0532c4a51247ca88e87b89ce982c312395ca2e707ad0"
+    },
+    "schema_delta.csv": {
+      "bytes": 23,
+      "sha256": "06b08f3ca326bcf115cbe00328258d0fa60856a9d993542b82818ecd06cef5ea"
+    },
+    "summary.csv": {
+      "bytes": 1934,
+      "sha256": "73f0c801f6264ad4ab40b4d2b0cbdc70462aaa2720a790022223ab430811fd62"
+    },
+    "verification.csv": {
+      "bytes": 25,
+      "sha256": "88eb970f4841cc8dfded9fa18c27ce495639d3de945343de7c830dcbde914171"
+    }
+  },
+  "formatVersion": 1,
+  "lastBuild": 3270632,
+  "notice": "© 2014 CCP hf. All rights reserved. \"EVE\", \"EVE Online\", \"CCP\", and all related logos and images are trademarks or registered trademarks of CCP hf. This data is derived from the EVE Online Static Data Export and is the property of CCP hf.; see NOTICE. No official affiliation or endorsement by CCP Games is stated or implied.",
+  "releaseDate": "2026-03-24T11:26:19Z",
+  "source": "https://developers.eveonline.com/static-data/tranquility",
+  "tables": {
+    "dbuffCollections": {
+      "added": 0,
+      "changed": 4,
+      "removed": 0
+    },
+    "groups": {
+      "added": 0,
+      "changed": 1,
+      "removed": 0
+    },
+    "typeDogma": {
+      "added": 0,
+      "changed": 18,
+      "removed": 0
+    },
+    "types": {
+      "added": 0,
+      "changed": 7,
+      "removed": 0
+    }
+  },
+  "totals": {
+    "added": 0,
+    "changed": 30,
+    "deltaLines": 30,
+    "removed": 0,
+    "schemaOps": 0,
+    "tablesChanged": 4,
+    "tablesCompared": 56
+  },
+  "verification": {
+    "changelogCoverage": "complete",
+    "errorDetails": [],
+    "errors": 0,
+    "info": 0,
+    "mode": "verify-all",
+    "status": "ok"
+  }
+}

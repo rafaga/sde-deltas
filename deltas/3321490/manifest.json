@@ -1,0 +1,86 @@
+{
+  "build": 3321490,
+  "files": {
+    "delta.jsonl.gz": {
+      "bytes": 354039,
+      "sha256": "cffc5b756368da7ae3bafb60d2530d08cabd07c167f840eaaa65303c9a3f9775"
+    },
+    "schema_delta.csv": {
+      "bytes": 2957,
+      "sha256": "b9c8b13e5be73c12d82f3ddd7baf64a4587542997eeab62d95825c6e4bd807a6"
+    },
+    "summary.csv": {
+      "bytes": 2065,
+      "sha256": "9eda21aa22d403105dd4536d87ae48fd798be427cafcd6cbe8f0c3fe240dccfa"
+    },
+    "verification.csv": {
+      "bytes": 25,
+      "sha256": "88eb970f4841cc8dfded9fa18c27ce495639d3de945343de7c830dcbde914171"
+    }
+  },
+  "formatVersion": 1,
+  "lastBuild": 3316380,
+  "notice": "© 2014 CCP hf. All rights reserved. \"EVE\", \"EVE Online\", \"CCP\", and all related logos and images are trademarks or registered trademarks of CCP hf. This data is derived from the EVE Online Static Data Export and is the property of CCP hf.; see NOTICE. No official affiliation or endorsement by CCP Games is stated or implied.",
+  "releaseDate": "2026-04-28T11:43:10Z",
+  "source": "https://developers.eveonline.com/static-data/tranquility",
+  "tables": {
+    "archetypes": {
+      "added": 34,
+      "changed": 0,
+      "changelogFlags": [
+        "fileAdded"
+      ],
+      "removed": 0
+    },
+    "dungeons": {
+      "added": 1364,
+      "changed": 0,
+      "changelogFlags": [
+        "fileAdded"
+      ],
+      "removed": 0
+    },
+    "mercenaryTacticalOperations": {
+      "added": 0,
+      "changed": 3,
+      "changelogFlags": [
+        "schemaChanged"
+      ],
+      "removed": 0,
+      "schemaOps": {
+        "add_path": 4,
+        "drop_path": 3
+      }
+    },
+    "typeLists": {
+      "added": 438,
+      "changed": 0,
+      "changelogFlags": [
+        "fileAdded"
+      ],
+      "removed": 0
+    },
+    "types": {
+      "added": 1,
+      "changed": 0,
+      "removed": 0
+    }
+  },
+  "totals": {
+    "added": 1837,
+    "changed": 3,
+    "deltaLines": 1847,
+    "removed": 0,
+    "schemaOps": 7,
+    "tablesChanged": 5,
+    "tablesCompared": 59
+  },
+  "verification": {
+    "changelogCoverage": "complete",
+    "errorDetails": [],
+    "errors": 0,
+    "info": 0,
+    "mode": "verify-all",
+    "status": "ok"
+  }
+}
