@@ -26,13 +26,13 @@ jobs:
       # CCP asks clients to identify themselves: the repository URL is the contact
       SDE_USER_AGENT: sde-deltas (${{ github.server_url }}/${{ github.repository }})
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           # A run that waited in the concurrency queue checks out the commit that was current when it was
           # triggered, which can be stale; always start from the latest default branch instead.
           ref: ${{ github.event.repository.default_branch }}
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
 
