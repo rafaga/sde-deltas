@@ -3,6 +3,147 @@
 Changes between consecutive builds of the EVE Online Static Data Export, generated from `deltas/*/manifest.json`.
 It lists tables and counts only; the values are in `deltas/<build>/delta.jsonl.gz`.
 
+## Build 3231590 (2026-02-27) - base 3226738
+
+- 3 tables changed: +0 added, -0 removed, ~64 modified, 0 schema operations
+  - `skinMaterials`: +0 -0 ~5
+  - `skins`: +0 -0 ~10
+  - `types`: +0 -0 ~49
+
+## Build 3226738 (2026-02-25) - base 3223220
+
+- 3 tables changed: +16 added, -0 removed, ~337 modified, 0 schema operations
+  - `marketGroups`: +0 -0 ~15
+  - `typeDogma`: +6 -0 ~118
+  - `types`: +10 -0 ~204
+
+## Build 3223220 (2026-02-24) - base 3221584
+
+- 1 tables changed: +345 added, -0 removed, ~148 modified, 0 schema operations
+  - `graphics`: +345 -0 ~148
+
+## Build 3221584 (2026-02-23) - base 3215400
+
+- 1 tables changed: +0 added, -0 removed, ~29 modified, 0 schema operations
+  - `types`: +0 -0 ~29
+
+## Build 3215400 (2026-02-19) - base 3213160
+
+- 5 tables changed: +0 added, -0 removed, ~579 modified, 0 schema operations
+  - `groups`: +0 -0 ~2
+  - `marketGroups`: +0 -0 ~2
+  - `typeBonus`: +0 -0 ~16
+  - `typeDogma`: +0 -0 ~6
+  - `types`: +0 -0 ~553
+
+## Build 3213160 (2026-02-18) - base 3210853
+
+- 5 tables changed: +40 added, -0 removed, ~0 modified, 0 schema operations
+  - `icons`: +2 -0 ~0
+  - `skinLicenses`: +10 -0 ~0
+  - `skinMaterials`: +5 -0 ~0
+  - `skins`: +10 -0 ~0
+  - `types`: +13 -0 ~0
+
+## Build 3210853 (2026-02-17) - base 3201939
+
+- 4 tables changed: +332 added, -0 removed, ~0 modified, 0 schema operations
+  - `graphics`: +13 -0 ~0
+  - `groups`: +4 -0 ~0
+  - `typeDogma`: +112 -0 ~0
+  - `types`: +203 -0 ~0
+
+## Build 3201939 (2026-02-11) - base 3195451
+
+- 4 tables changed: +5 added, -0 removed, ~159 modified, 0 schema operations
+  - `dbuffCollections`: +0 -0 ~5
+  - `dogmaAttributes`: +3 -0 ~0
+  - `dogmaEffects`: +2 -0 ~0
+  - `typeDogma`: +0 -0 ~154
+
+## Build 3195451 (2026-02-06) - base 3193062
+
+- 1 tables changed: +0 added, -0 removed, ~1 modified, 0 schema operations
+  - `types`: +0 -0 ~1
+
+## Build 3193062 (2026-02-05) - base 3187404
+
+- 1 tables changed: +1 added, -0 removed, ~0 modified, 0 schema operations
+  - `types`: +1 -0 ~0
+
+## Build 3187404 (2026-02-02) - base 3183544
+
+- 1 tables changed: +0 added, -0 removed, ~21 modified, 0 schema operations
+  - `types`: +0 -0 ~21
+
+## Build 3183544 (2026-01-29) - base 3171578
+
+- 1 tables changed: +0 added, -0 removed, ~1 modified, 0 schema operations
+  - `types`: +0 -0 ~1
+
+## Build 3171578 (2026-01-20) - base 3168731
+
+- 1 tables changed: +0 added, -0 removed, ~1 modified, 0 schema operations
+  - `types`: +0 -0 ~1
+
+## Build 3168731 (2026-01-16) - base 3167101
+
+- 1 tables changed: +4 added, -0 removed, ~0 modified, 0 schema operations
+  - `cloneGrades`: +4 -0 ~0
+
+## Build 3167101 (2026-01-15) - base 3164432
+
+- 3 tables changed: +0 added, -0 removed, ~40 modified, 0 schema operations
+  - `dbuffCollections`: +0 -0 ~4
+  - `typeBonus`: +0 -0 ~1
+  - `types`: +0 -0 ~35
+
+## Build 3164432 (2026-01-13) - base 3159816
+
+- 8 tables changed: +113 added, -2 removed, ~938 modified, 0 schema operations
+  - `certificates`: +0 -0 ~1
+  - `groups`: +0 -0 ~3
+  - `marketGroups`: +11 -2 ~3
+  - `skinLicenses`: +31 -0 ~0
+  - `skinMaterials`: +9 -0 ~0
+  - `skins`: +31 -0 ~0
+  - `typeBonus`: +0 -0 ~8
+  - `types`: +31 -0 ~923
+
+## Build 3159816 (2026-01-08) - base 3156467
+
+- 3 tables changed: +2 added, -0 removed, ~356 modified, 0 schema operations
+  - `dogmaEffects`: +2 -0 ~0
+  - `typeDogma`: +0 -0 ~4
+  - `types`: +0 -0 ~352
+
+## Build 3156467 (2026-01-06) - base 3154642
+
+- 3 tables changed: +10 added, -0 removed, ~6 modified, 0 schema operations
+  - `dogmaAttributes`: +5 -0 ~0
+  - `dogmaEffects`: +5 -0 ~0
+  - `typeDogma`: +0 -0 ~6
+
+## Build 3154642 (2026-01-05) - base 3142455
+
+- 7 tables changed: +18 added, -0 removed, ~2 modified, 0 schema operations
+  - `dogmaAttributes`: +1 -0 ~0
+  - `dogmaEffects`: +1 -0 ~0
+  - `skinLicenses`: +5 -0 ~0
+  - `skins`: +5 -0 ~0
+  - `typeBonus`: +0 -0 ~1
+  - `typeDogma`: +0 -0 ~1
+  - `types`: +6 -0 ~0
+
+## Build 3142455 (2025-12-15) - base 3137986
+
+- 5 tables changed: +0 added, -0 removed, ~20 modified, 0 schema operations
+  - `dogmaEffects`: +0 -0 ~1
+  - `skinMaterials`: +0 -0 ~1
+  - `skins`: +0 -0 ~1
+  - `typeBonus`: +0 -0 ~2
+  - `types`: +0 -0 ~15
+
 ## Build 3137986 (2025-12-11) - base 3136254
 
 - 12 tables changed: +44 added, -3 removed, ~29 modified, 0 schema operations

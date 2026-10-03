@@ -1,0 +1,80 @@
+{
+  "build": 3154642,
+  "files": {
+    "delta.jsonl.gz": {
+      "bytes": 6182,
+      "sha256": "e8ffa263af81be8b9bf3277cfa890765c0207cf0a56741f941dd3bbd55682b8c"
+    },
+    "schema_delta.csv": {
+      "bytes": 23,
+      "sha256": "06b08f3ca326bcf115cbe00328258d0fa60856a9d993542b82818ecd06cef5ea"
+    },
+    "summary.csv": {
+      "bytes": 1821,
+      "sha256": "3369b828cfb3392f65206b61f2f0cfc7083fc1bdf04be1e4e2bcd1586fcb7c00"
+    },
+    "verification.csv": {
+      "bytes": 25,
+      "sha256": "88eb970f4841cc8dfded9fa18c27ce495639d3de945343de7c830dcbde914171"
+    }
+  },
+  "formatVersion": 1,
+  "lastBuild": 3142455,
+  "notice": "© 2014 CCP hf. All rights reserved. \"EVE\", \"EVE Online\", \"CCP\", and all related logos and images are trademarks or registered trademarks of CCP hf. This data is derived from the EVE Online Static Data Export and is the property of CCP hf.; see NOTICE. No official affiliation or endorsement by CCP Games is stated or implied.",
+  "releaseDate": "2026-01-05T11:13:51Z",
+  "source": "https://developers.eveonline.com/static-data/tranquility",
+  "tables": {
+    "dogmaAttributes": {
+      "added": 1,
+      "changed": 0,
+      "removed": 0
+    },
+    "dogmaEffects": {
+      "added": 1,
+      "changed": 0,
+      "removed": 0
+    },
+    "skinLicenses": {
+      "added": 5,
+      "changed": 0,
+      "removed": 0
+    },
+    "skins": {
+      "added": 5,
+      "changed": 0,
+      "removed": 0
+    },
+    "typeBonus": {
+      "added": 0,
+      "changed": 1,
+      "removed": 0
+    },
+    "typeDogma": {
+      "added": 0,
+      "changed": 1,
+      "removed": 0
+    },
+    "types": {
+      "added": 6,
+      "changed": 0,
+      "removed": 0
+    }
+  },
+  "totals": {
+    "added": 18,
+    "changed": 2,
+    "deltaLines": 20,
+    "removed": 0,
+    "schemaOps": 0,
+    "tablesChanged": 7,
+    "tablesCompared": 53
+  },
+  "verification": {
+    "changelogCoverage": "complete",
+    "errorDetails": [],
+    "errors": 0,
+    "info": 0,
+    "mode": "verify-all",
+    "status": "ok"
+  }
+}

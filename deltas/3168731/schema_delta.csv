@@ -1,0 +1,4 @@
+table,kind,field_path
+cloneGrades,field_added,name
+cloneGrades,field_added,skills.[].level
+cloneGrades,field_added,skills.[].typeID
