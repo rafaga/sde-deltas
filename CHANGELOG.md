@@ -3,6 +3,231 @@
 Changes between consecutive builds of the EVE Online Static Data Export, generated from `deltas/*/manifest.json`.
 It lists tables and counts only; the values are in `deltas/<build>/delta.jsonl.gz`.
 
+## Build 3464040 (2026-08-11) - base 3458726
+
+- 32 tables changed: +1571 added, -0 removed, ~46843 modified, 1 schema operations
+  - `accountingEntryTypes`: +177 -0 ~0
+  - `appliedProximityEffects`: +118 -0 ~0
+  - `corporationRoleGroups`: +9 -0 ~0
+  - `corporationRoles`: +55 -0 ~0
+  - `dogmaAttributes`: +1 -0 ~1
+  - `dogmaEffects`: +1 -0 ~2
+  - `expertSystems`: +55 -0 ~0
+  - `fighterAbilities`: +36 -0 ~0
+  - `fighterAbilitiesByType`: +94 -0 ~0
+  - `industryActivities`: +6 -0 ~0
+  - `industryAssemblyLines`: +146 -0 ~0
+  - `industryInstallationTypes`: +102 -0 ~0
+  - `industryModifierSources`: +220 -0 ~0
+  - `industryTargetFilters`: +18 -0 ~0
+  - `linkWithShip`: +3 -0 ~0
+  - `mapSolarSystems`: +0 -0 ~7
+  - `metenoxMoonDrill`: +1 -0 ~0
+  - `militaryCampaignObjectives`: +4 -0 ~0
+  - `missions`: +0 -0 ~14
+  - `notificationTypes`: +297 -0 ~0
+  - `npcStations`: +0 -0 ~1
+  - `proximityTrap`: +24 -0 ~0
+  - `schoolMap`: +12 -0 ~0
+  - `schools`: +23 -0 ~0
+  - `skillPlans`: +40 -0 ~0
+  - `skinrSlotsToMaterials`: +16 -0 ~0
+  - `stationOperations`: +1 -0 ~1
+  - `stationStandingsRestrictions`: +1 -0 ~0
+  - `systemDbuffEmitters`: +1 -0 ~0
+  - `systemWideEffects`: +95 -0 ~0
+  - `typeDogma`: +0 -0 ~68
+  - `types`: +15 -0 ~46749 [schema: add_path x1]
+
+## Build 3458726 (2026-08-06) - base 3457062
+
+- 4 tables changed: +36 added, -0 removed, ~10 modified, 0 schema operations
+  - `graphicMaterialSets`: +1 -0 ~0
+  - `graphics`: +17 -0 ~0
+  - `militaryCampaignObjectives`: +1 -0 ~0
+  - `types`: +17 -0 ~10
+
+## Build 3457062 (2026-08-05) - base 3453885
+
+- 8 tables changed: +37 added, -0 removed, ~18 modified, 0 schema operations
+  - `dogmaAttributes`: +0 -0 ~3
+  - `graphicMaterialSets`: +2 -0 ~0
+  - `marketGroups`: +0 -0 ~3
+  - `militaryCampaignObjectives`: +8 -0 ~0
+  - `skinLicenses`: +9 -0 ~0
+  - `skins`: +9 -0 ~0
+  - `typeDogma`: +0 -0 ~1
+  - `types`: +9 -0 ~11
+
+## Build 3453885 (2026-07-31) - base 3451778
+
+- 1 tables changed: +1 added, -0 removed, ~0 modified, 0 schema operations
+  - `militaryCampaignObjectives`: +1 -0 ~0
+
+## Build 3451778 (2026-07-30) - base 3448696
+
+- 3 tables changed: +1 added, -0 removed, ~22 modified, 0 schema operations
+  - `icons`: +0 -0 ~1
+  - `militaryCampaignObjectives`: +1 -0 ~18
+  - `types`: +0 -0 ~3
+
+## Build 3448696 (2026-07-28) - base 3444265
+
+- 9 tables changed: +10 added, -0 removed, ~58 modified, 0 schema operations
+  - `dungeons`: +0 -0 ~11
+  - `graphics`: +1 -0 ~0
+  - `groups`: +1 -0 ~0
+  - `militaryCampaignObjectives`: +6 -0 ~0
+  - `missions`: +0 -0 ~17
+  - `npcCorporations`: +0 -0 ~1
+  - `typeDogma`: +1 -0 ~0
+  - `typeLists`: +0 -0 ~1
+  - `types`: +1 -0 ~28
+
+## Build 3444265 (2026-07-23) - base 3442663
+
+- 12 tables changed: +129 added, -0 removed, ~3093 modified, 0 schema operations
+  - `dbuffCollections`: +5 -0 ~0
+  - `dogmaAttributes`: +5 -0 ~0
+  - `dogmaEffects`: +1 -0 ~0
+  - `dungeons`: +0 -0 ~5
+  - `groups`: +4 -0 ~3
+  - `icons`: +2 -0 ~0
+  - `mapSolarSystems`: +0 -0 ~1
+  - `missions`: +0 -0 ~28
+  - `skinrComponents`: +1 -0 ~0
+  - `typeBonus`: +0 -0 ~9
+  - `typeDogma`: +49 -0 ~35
+  - `types`: +62 -0 ~3012
+
+## Build 3442663 (2026-07-22) - base 3441022
+
+- 9 tables changed: +4 added, -0 removed, ~3045 modified, 0 schema operations
+  - `dungeons`: +0 -0 ~4
+  - `graphicMaterialSets`: +0 -0 ~1
+  - `graphics`: +1 -0 ~0
+  - `groups`: +0 -0 ~2
+  - `mapSolarSystems`: +0 -0 ~1
+  - `militaryCampaignObjectives`: +2 -0 ~0
+  - `missions`: +0 -0 ~30
+  - `typeBonus`: +0 -0 ~9
+  - `types`: +1 -0 ~2998
+
+## Build 3441022 (2026-07-21) - base 3439610
+
+- 1 tables changed: +4 added, -0 removed, ~0 modified, 0 schema operations
+  - `militaryCampaignObjectives`: +4 -0 ~0
+
+## Build 3439610 (2026-07-20) - base 3436472
+
+- 1 tables changed: +4 added, -0 removed, ~0 modified, 0 schema operations
+  - `militaryCampaignObjectives`: +4 -0 ~0
+
+## Build 3436472 (2026-07-17) - base 3435006
+
+- 9 tables changed: +5 added, -0 removed, ~78 modified, 0 schema operations
+  - `certificates`: +0 -0 ~2
+  - `militaryCampaignObjectives`: +2 -0 ~28
+  - `missions`: +0 -0 ~7
+  - `npcCorporations`: +0 -0 ~1
+  - `stationOperations`: +0 -0 ~6
+  - `typeBonus`: +2 -0 ~0
+  - `typeDogma`: +0 -0 ~1
+  - `typeElements`: +1 -0 ~0
+  - `types`: +0 -0 ~33
+
+## Build 3435006 (2026-07-15) - base 3433564
+
+- 2 tables changed: +4 added, -0 removed, ~14 modified, 0 schema operations
+  - `militaryCampaignObjectives`: +2 -0 ~0
+  - `types`: +2 -0 ~14
+
+## Build 3433564 (2026-07-14) - base 3430261
+
+- 4 tables changed: +12 added, -0 removed, ~543 modified, 0 schema operations
+  - `militaryCampaignObjectives`: +6 -0 ~0
+  - `skinrComponents`: +0 -0 ~543
+  - `typeDogma`: +2 -0 ~0
+  - `types`: +4 -0 ~0
+
+## Build 3430261 (2026-07-10) - base 3428504
+
+- 6 tables changed: +29 added, -0 removed, ~1 modified, 0 schema operations
+  - `icons`: +1 -0 ~0
+  - `marketGroups`: +3 -0 ~0
+  - `militaryCampaignObjectives`: +1 -0 ~0
+  - `skinLicenses`: +8 -0 ~0
+  - `skins`: +8 -0 ~0
+  - `types`: +8 -0 ~1
+
+## Build 3428504 (2026-07-09) - base 3426485
+
+- 2 tables changed: +0 added, -0 removed, ~2 modified, 0 schema operations
+  - `typeBonus`: +0 -0 ~1
+  - `typeDogma`: +0 -0 ~1
+
+## Build 3426485 (2026-07-08) - base 3424810
+
+- 3 tables changed: +3 added, -0 removed, ~0 modified, 0 schema operations
+  - `graphics`: +1 -0 ~0
+  - `militaryCampaignObjectives`: +1 -0 ~0
+  - `types`: +1 -0 ~0
+
+## Build 3424810 (2026-07-07) - base 3421648
+
+- 16 tables changed: +230 added, -0 removed, ~34 modified, 0 schema operations
+  - `blueprints`: +1 -0 ~1
+  - `dbuffCollections`: +1 -0 ~0
+  - `dogmaAttributes`: +4 -0 ~0
+  - `dogmaEffects`: +2 -0 ~0
+  - `dungeons`: +5 -0 ~0
+  - `graphics`: +28 -0 ~0
+  - `icons`: +3 -0 ~2
+  - `marketGroups`: +1 -0 ~0
+  - `militaryCampaignObjectives`: +8 -0 ~0
+  - `skinLicenses`: +9 -0 ~0
+  - `skinrComponents`: +0 -0 ~6
+  - `skins`: +9 -0 ~0
+  - `typeDogma`: +52 -0 ~18
+  - `typeLists`: +2 -0 ~0
+  - `typeMaterials`: +3 -0 ~0
+  - `types`: +102 -0 ~7
+
+## Build 3421648 (2026-07-03) - base 3419624
+
+- 3 tables changed: +9 added, -0 removed, ~10 modified, 0 schema operations
+  - `icons`: +3 -0 ~1
+  - `militaryCampaignObjectives`: +1 -0 ~0
+  - `types`: +5 -0 ~9
+
+## Build 3419624 (2026-07-02) - base 3417089
+
+- 7 tables changed: +3 added, -0 removed, ~13 modified, 0 schema operations
+  - `blueprints`: +0 -0 ~1
+  - `dogmaAttributes`: +0 -0 ~1
+  - `dogmaEffects`: +1 -0 ~0
+  - `militaryCampaignObjectives`: +2 -0 ~0
+  - `missions`: +0 -0 ~2
+  - `typeDogma`: +0 -0 ~2
+  - `types`: +0 -0 ~7
+
+## Build 3417089 (2026-07-01) - base 3409592
+
+- 13 tables changed: +37 added, -0 removed, ~57 modified, 0 schema operations
+  - `dbuffCollections`: +0 -0 ~1
+  - `dogmaAttributes`: +1 -0 ~0
+  - `dogmaEffects`: +1 -0 ~0
+  - `dungeons`: +0 -0 ~4
+  - `graphicMaterialSets`: +5 -0 ~0
+  - `icons`: +1 -0 ~0
+  - `militaryCampaignObjectives`: +11 -0 ~0
+  - `skinLicenses`: +4 -0 ~0
+  - `skinMaterials`: +4 -0 ~0
+  - `skinrComponents`: +0 -0 ~11
+  - `skins`: +4 -0 ~0
+  - `typeDogma`: +0 -0 ~5
+  - `types`: +6 -0 ~36
+
 ## Build 3409592 (2026-06-25) - base 3407448
 
 - 2 tables changed: +1 added, -0 removed, ~10081 modified, 1 schema operations

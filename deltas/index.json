@@ -2,7 +2,7 @@
  "formatVersion": 1,
  "source": "https://developers.eveonline.com/static-data/tranquility",
  "firstBuild": 3031812,
- "latestBuild": 3409592,
+ "latestBuild": 3464040,
  "builds": [
   {
    "build": 3031812,
@@ -626,6 +626,146 @@
    "releaseDate": "2026-06-25T12:00:48Z",
    "verification": "ok",
    "deltaBytes": 35083
+  },
+  {
+   "build": 3417089,
+   "lastBuild": 3409592,
+   "releaseDate": "2026-07-01T12:12:06Z",
+   "verification": "ok",
+   "deltaBytes": 26438
+  },
+  {
+   "build": 3419624,
+   "lastBuild": 3417089,
+   "releaseDate": "2026-07-02T11:56:01Z",
+   "verification": "ok",
+   "deltaBytes": 6959
+  },
+  {
+   "build": 3421648,
+   "lastBuild": 3419624,
+   "releaseDate": "2026-07-03T11:54:23Z",
+   "verification": "ok",
+   "deltaBytes": 10442
+  },
+  {
+   "build": 3424810,
+   "lastBuild": 3421648,
+   "releaseDate": "2026-07-07T11:05:37Z",
+   "verification": "ok",
+   "deltaBytes": 62292
+  },
+  {
+   "build": 3426485,
+   "lastBuild": 3424810,
+   "releaseDate": "2026-07-08T11:05:41Z",
+   "verification": "ok",
+   "deltaBytes": 3532
+  },
+  {
+   "build": 3428504,
+   "lastBuild": 3426485,
+   "releaseDate": "2026-07-09T11:05:50Z",
+   "verification": "ok",
+   "deltaBytes": 155
+  },
+  {
+   "build": 3430261,
+   "lastBuild": 3428504,
+   "releaseDate": "2026-07-10T11:05:21Z",
+   "verification": "ok",
+   "deltaBytes": 2942
+  },
+  {
+   "build": 3433564,
+   "lastBuild": 3430261,
+   "releaseDate": "2026-07-14T11:06:17Z",
+   "verification": "ok",
+   "deltaBytes": 13763
+  },
+  {
+   "build": 3435006,
+   "lastBuild": 3433564,
+   "releaseDate": "2026-07-15T11:05:50Z",
+   "verification": "ok",
+   "deltaBytes": 12863
+  },
+  {
+   "build": 3436472,
+   "lastBuild": 3435006,
+   "releaseDate": "2026-07-17T11:04:22Z",
+   "verification": "ok",
+   "deltaBytes": 15521
+  },
+  {
+   "build": 3439610,
+   "lastBuild": 3436472,
+   "releaseDate": "2026-07-20T11:06:15Z",
+   "verification": "ok",
+   "deltaBytes": 7249
+  },
+  {
+   "build": 3441022,
+   "lastBuild": 3439610,
+   "releaseDate": "2026-07-21T11:06:27Z",
+   "verification": "ok",
+   "deltaBytes": 6000
+  },
+  {
+   "build": 3442663,
+   "lastBuild": 3441022,
+   "releaseDate": "2026-07-22T11:06:36Z",
+   "verification": "ok",
+   "deltaBytes": 111313
+  },
+  {
+   "build": 3444265,
+   "lastBuild": 3442663,
+   "releaseDate": "2026-07-23T11:06:22Z",
+   "verification": "ok",
+   "deltaBytes": 113580
+  },
+  {
+   "build": 3448696,
+   "lastBuild": 3444265,
+   "releaseDate": "2026-07-28T11:07:17Z",
+   "verification": "ok",
+   "deltaBytes": 28874
+  },
+  {
+   "build": 3451778,
+   "lastBuild": 3448696,
+   "releaseDate": "2026-07-30T11:07:15Z",
+   "verification": "ok",
+   "deltaBytes": 9882
+  },
+  {
+   "build": 3453885,
+   "lastBuild": 3451778,
+   "releaseDate": "2026-07-31T11:29:31Z",
+   "verification": "ok",
+   "deltaBytes": 2130
+  },
+  {
+   "build": 3457062,
+   "lastBuild": 3453885,
+   "releaseDate": "2026-08-05T11:06:46Z",
+   "verification": "ok",
+   "deltaBytes": 15685
+  },
+  {
+   "build": 3458726,
+   "lastBuild": 3457062,
+   "releaseDate": "2026-08-06T11:07:36Z",
+   "verification": "ok",
+   "deltaBytes": 5221
+  },
+  {
+   "build": 3464040,
+   "lastBuild": 3458726,
+   "releaseDate": "2026-08-11T11:11:17Z",
+   "verification": "ok",
+   "deltaBytes": 364625
   }
  ]
 }
