@@ -3,6 +3,163 @@
 Changes between consecutive builds of the EVE Online Static Data Export, generated from `deltas/*/manifest.json`.
 It lists tables and counts only; the values are in `deltas/<build>/delta.jsonl.gz`.
 
+## Build 3542233 (2026-09-24) - base 3539543
+
+- 3 tables changed: +2 added, -0 removed, ~1 modified, 0 schema operations
+  - `dbuffCollections`: +0 -0 ~1
+  - `typeDogma`: +1 -0 ~0
+  - `types`: +1 -0 ~0
+
+## Build 3539543 (2026-09-23) - base 3538132
+
+- 6 tables changed: +8 added, -0 removed, ~28 modified, 0 schema operations
+  - `dogmaAttributes`: +0 -0 ~1
+  - `groups`: +0 -0 ~1
+  - `marketGroups`: +0 -0 ~4
+  - `militaryCampaignObjectives`: +8 -0 ~0
+  - `typeLists`: +0 -0 ~1
+  - `types`: +0 -0 ~21
+
+## Build 3538132 (2026-09-22) - base 3532181
+
+- 4 tables changed: +3 added, -0 removed, ~242 modified, 0 schema operations
+  - `dbuffCollections`: +0 -0 ~1
+  - `dogmaAttributes`: +3 -0 ~1
+  - `dogmaEffects`: +0 -0 ~8
+  - `typeDogma`: +0 -0 ~232
+
+## Build 3532181 (2026-09-22) - base 3528119
+
+- 19 tables changed: +124 added, -0 removed, ~735 modified, 0 schema operations
+  - `blueprints`: +0 -0 ~1
+  - `dogmaAttributes`: +1 -0 ~5
+  - `dogmaEffects`: +5 -0 ~1
+  - `dungeons`: +6 -0 ~2
+  - `dynamicItemAttributes`: +4 -0 ~0
+  - `expertSystems`: +2 -0 ~0
+  - `groups`: +1 -0 ~0
+  - `icons`: +2 -0 ~0
+  - `industryAssemblyLines`: +0 -0 ~1
+  - `marketGroups`: +4 -0 ~0
+  - `militaryCampaignObjectives`: +1 -0 ~0
+  - `npcCharacters`: +0 -0 ~1
+  - `races`: +0 -0 ~4
+  - `skinrComponents`: +0 -0 ~44
+  - `typeBonus`: +0 -0 ~10
+  - `typeDogma`: +29 -0 ~540
+  - `typeLists`: +5 -0 ~0
+  - `typeMaterials`: +4 -0 ~1
+  - `types`: +60 -0 ~125
+
+## Build 3528119 (2026-09-21) - base 3503375
+
+- 5 tables changed: +13 added, -0 removed, ~17 modified, 0 schema operations
+  - `dungeons`: +0 -0 ~2
+  - `marketGroups`: +2 -0 ~5
+  - `militaryCampaignObjectives`: +11 -0 ~0
+  - `missions`: +0 -0 ~4
+  - `types`: +0 -0 ~6
+
+## Build 3503375 (2026-09-10) - base 3500372
+
+- 1 tables changed: +3 added, -0 removed, ~1 modified, 0 schema operations
+  - `militaryCampaignObjectives`: +3 -0 ~1
+
+## Build 3500372 (2026-09-09) - base 3498825
+
+- 1 tables changed: +1 added, -0 removed, ~0 modified, 0 schema operations
+  - `militaryCampaignObjectives`: +1 -0 ~0
+
+## Build 3498825 (2026-09-08) - base 3494416
+
+- 1 tables changed: +6 added, -0 removed, ~0 modified, 0 schema operations
+  - `militaryCampaignObjectives`: +6 -0 ~0
+
+## Build 3494416 (2026-09-04) - base 3492266
+
+- 5 tables changed: +2 added, -0 removed, ~53 modified, 0 schema operations
+  - `marketGroups`: +0 -0 ~2
+  - `militaryCampaignObjectives`: +2 -0 ~0
+  - `skinMaterials`: +0 -0 ~2
+  - `skinrComponents`: +0 -0 ~9
+  - `types`: +0 -0 ~40
+
+## Build 3492266 (2026-09-03) - base 3489895
+
+- 3 tables changed: +3 added, -0 removed, ~159 modified, 0 schema operations
+  - `militaryCampaignObjectives`: +3 -0 ~0
+  - `skinrComponents`: +0 -0 ~53
+  - `types`: +0 -0 ~106
+
+## Build 3489895 (2026-09-02) - base 3487903
+
+- 2 tables changed: +1 added, -0 removed, ~3 modified, 0 schema operations
+  - `militaryCampaignObjectives`: +1 -0 ~0
+  - `skins`: +0 -0 ~3
+
+## Build 3487903 (2026-09-01) - base 3484357
+
+- 10 tables changed: +361 added, -0 removed, ~2 modified, 0 schema operations
+  - `expertSystems`: +1 -0 ~0
+  - `graphicMaterialSets`: +2 -0 ~0
+  - `icons`: +106 -0 ~0
+  - `marketGroups`: +2 -0 ~0
+  - `militaryCampaignObjectives`: +3 -0 ~0
+  - `skinLicenses`: +27 -0 ~0
+  - `skinMaterials`: +4 -0 ~0
+  - `skinrComponents`: +53 -0 ~0
+  - `skins`: +27 -0 ~0
+  - `types`: +136 -0 ~2
+
+## Build 3484357 (2026-08-28) - base 3482594
+
+- 1 tables changed: +2 added, -0 removed, ~0 modified, 0 schema operations
+  - `militaryCampaignObjectives`: +2 -0 ~0
+
+## Build 3482594 (2026-08-27) - base 3480926
+
+- 1 tables changed: +1 added, -0 removed, ~0 modified, 0 schema operations
+  - `militaryCampaignObjectives`: +1 -0 ~0
+
+## Build 3480926 (2026-08-26) - base 3478781
+
+- 3 tables changed: +2 added, -0 removed, ~20 modified, 0 schema operations
+  - `militaryCampaignObjectives`: +2 -0 ~0
+  - `missions`: +0 -0 ~5
+  - `types`: +0 -0 ~15
+
+## Build 3478781 (2026-08-25) - base 3475087
+
+- 1 tables changed: +6 added, -0 removed, ~0 modified, 0 schema operations
+  - `militaryCampaignObjectives`: +6 -0 ~0
+
+## Build 3475087 (2026-08-20) - base 3473160
+
+- 3 tables changed: +1 added, -0 removed, ~28 modified, 0 schema operations
+  - `dogmaAttributes`: +1 -0 ~0
+  - `typeDogma`: +0 -0 ~18
+  - `types`: +0 -0 ~10
+
+## Build 3473160 (2026-08-19) - base 3470007
+
+- 4 tables changed: +2 added, -0 removed, ~3 modified, 0 schema operations
+  - `blueprints`: +0 -0 ~1
+  - `dogmaAttributes`: +0 -0 ~1
+  - `militaryCampaignObjectives`: +2 -0 ~0
+  - `types`: +0 -0 ~1
+
+## Build 3470007 (2026-08-17) - base 3466501
+
+- 2 tables changed: +7 added, -0 removed, ~1 modified, 1 schema operations
+  - `industryAssemblyLines`: +0 -0 ~1 [schema: add_path x1]
+  - `militaryCampaignObjectives`: +7 -0 ~0
+
+## Build 3466501 (2026-08-13) - base 3464040
+
+- 2 tables changed: +2 added, -0 removed, ~6611 modified, 2 schema operations
+  - `militaryCampaignObjectives`: +2 -0 ~0
+  - `types`: +0 -0 ~6611 [schema: add_path x2]
+
 ## Build 3464040 (2026-08-11) - base 3458726
 
 - 32 tables changed: +1571 added, -0 removed, ~46843 modified, 1 schema operations

@@ -1,0 +1,3 @@
+table,kind,field_path
+types,field_added,isDynamicType
+types,field_added,isRepackable
