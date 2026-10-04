@@ -1,0 +1,286 @@
+{
+  "build": 3405148,
+  "counts": {
+    "agentTypes": 13,
+    "agentsInSpace": 360,
+    "ancestries": 43,
+    "archetypes": 34,
+    "bloodlines": 18,
+    "blueprints": 5081,
+    "categories": 48,
+    "certificates": 139,
+    "characterAttributes": 5,
+    "characterTitles": 43,
+    "cloneGrades": 4,
+    "compressibleTypes": 212,
+    "contrabandTypes": 8,
+    "controlTowerResources": 44,
+    "corporationActivities": 20,
+    "dbuffCollections": 270,
+    "dogmaAttributeCategories": 37,
+    "dogmaAttributes": 2855,
+    "dogmaEffects": 3411,
+    "dogmaUnits": 60,
+    "dungeons": 1404,
+    "dynamicItemAttributes": 413,
+    "epicArcs": 21,
+    "factions": 27,
+    "freelanceJobSchemas": 1,
+    "graphics": 6021,
+    "groups": 1605,
+    "icons": 4648,
+    "landmarks": 45,
+    "mapAsteroidBelts": 40928,
+    "mapConstellations": 1184,
+    "mapMoons": 344457,
+    "mapPlanets": 68407,
+    "mapRegions": 114,
+    "mapSecondarySuns": 1038,
+    "mapSolarSystems": 8490,
+    "mapStargates": 13978,
+    "mapStars": 8089,
+    "marketGroups": 2102,
+    "masteries": 476,
+    "mercenaryTacticalOperations": 3,
+    "metaGroups": 13,
+    "militaryCampaignObjectives": 39,
+    "militaryCampaigns": 4,
+    "missions": 2892,
+    "npcCharacters": 11393,
+    "npcCorporationDivisions": 10,
+    "npcCorporations": 283,
+    "npcStations": 5210,
+    "planetResources": 25798,
+    "planetSchematics": 68,
+    "races": 11,
+    "shipTreeElements": 30,
+    "shipTreeFactions": 17,
+    "shipTreeGroups": 52,
+    "skinLicenses": 11794,
+    "skinMaterials": 859,
+    "skinrComponentCategories": 3,
+    "skinrComponentPointValues": 3,
+    "skinrComponentRarities": 6,
+    "skinrComponents": 543,
+    "skinrSlotCategories": 3,
+    "skinrSlotConfigurations": 4,
+    "skinrSlotNames": 8,
+    "skinrSlots": 8,
+    "skinrTierThresholds": 49,
+    "skins": 6965,
+    "sovereigntyUpgrades": 49,
+    "stationOperations": 68,
+    "stationServices": 27,
+    "translationLanguages": 8,
+    "typeBonus": 650,
+    "typeDogma": 26724,
+    "typeElements": 422,
+    "typeLists": 460,
+    "typeMaterials": 9548,
+    "types": 52630
+  },
+  "files": {
+    "delta.jsonl.gz": {
+      "bytes": 15145674,
+      "sha256": "3a4e0c59f0a00d5f048006671de3e381fdd3857ad69d94d720e32a67ec4b4f2d"
+    },
+    "schema_delta.csv": {
+      "bytes": 25435,
+      "sha256": "1d048680517ef220d76d868a9bd623d31bdae8f818167d2d688aabdab18c413f"
+    },
+    "summary.csv": {
+      "bytes": 2853,
+      "sha256": "63a957eb562c6e524e878717368ae45279911b29e191709895e4d7c39d7cb76c"
+    },
+    "verification.csv": {
+      "bytes": 25,
+      "sha256": "88eb970f4841cc8dfded9fa18c27ce495639d3de945343de7c830dcbde914171"
+    }
+  },
+  "formatVersion": 1,
+  "lastBuild": 3402511,
+  "notice": "© 2014 CCP hf. All rights reserved. \"EVE\", \"EVE Online\", \"CCP\", and all related logos and images are trademarks or registered trademarks of CCP hf. This data is derived from the EVE Online Static Data Export and is the property of CCP hf.; see NOTICE. No official affiliation or endorsement by CCP Games is stated or implied.",
+  "releaseDate": "2026-06-23T11:07:09Z",
+  "source": "https://developers.eveonline.com/static-data/tranquility",
+  "tables": {
+    "epicArcs": {
+      "added": 21,
+      "changed": 0,
+      "changelogFlags": [
+        "fileAdded"
+      ],
+      "removed": 0
+    },
+    "graphics": {
+      "added": 0,
+      "changed": 1,
+      "removed": 0
+    },
+    "militaryCampaignObjectives": {
+      "added": 39,
+      "changed": 0,
+      "changelogFlags": [
+        "fileAdded"
+      ],
+      "removed": 0
+    },
+    "militaryCampaigns": {
+      "added": 4,
+      "changed": 0,
+      "changelogFlags": [
+        "fileAdded"
+      ],
+      "removed": 0
+    },
+    "missions": {
+      "added": 2892,
+      "changed": 0,
+      "changelogFlags": [
+        "fileAdded"
+      ],
+      "removed": 0
+    },
+    "shipTreeElements": {
+      "added": 30,
+      "changed": 0,
+      "changelogFlags": [
+        "fileAdded"
+      ],
+      "removed": 0
+    },
+    "shipTreeFactions": {
+      "added": 17,
+      "changed": 0,
+      "changelogFlags": [
+        "fileAdded"
+      ],
+      "removed": 0
+    },
+    "shipTreeGroups": {
+      "added": 52,
+      "changed": 0,
+      "changelogFlags": [
+        "fileAdded"
+      ],
+      "removed": 0
+    },
+    "skinrComponentCategories": {
+      "added": 3,
+      "changed": 0,
+      "changelogFlags": [
+        "fileAdded"
+      ],
+      "removed": 0
+    },
+    "skinrComponentPointValues": {
+      "added": 3,
+      "changed": 0,
+      "changelogFlags": [
+        "fileAdded"
+      ],
+      "removed": 0
+    },
+    "skinrComponentRarities": {
+      "added": 6,
+      "changed": 0,
+      "changelogFlags": [
+        "fileAdded"
+      ],
+      "removed": 0
+    },
+    "skinrComponents": {
+      "added": 543,
+      "changed": 0,
+      "changelogFlags": [
+        "fileAdded"
+      ],
+      "removed": 0
+    },
+    "skinrSlotCategories": {
+      "added": 3,
+      "changed": 0,
+      "changelogFlags": [
+        "fileAdded"
+      ],
+      "removed": 0
+    },
+    "skinrSlotConfigurations": {
+      "added": 4,
+      "changed": 0,
+      "changelogFlags": [
+        "fileAdded"
+      ],
+      "removed": 0
+    },
+    "skinrSlotNames": {
+      "added": 8,
+      "changed": 0,
+      "changelogFlags": [
+        "fileAdded"
+      ],
+      "removed": 0
+    },
+    "skinrSlots": {
+      "added": 8,
+      "changed": 0,
+      "changelogFlags": [
+        "fileAdded"
+      ],
+      "removed": 0
+    },
+    "skinrTierThresholds": {
+      "added": 49,
+      "changed": 0,
+      "changelogFlags": [
+        "fileAdded"
+      ],
+      "removed": 0
+    },
+    "skins": {
+      "added": 0,
+      "changed": 2596,
+      "changelogFlags": [
+        "schemaChanged"
+      ],
+      "removed": 0,
+      "schemaOps": {
+        "drop_path": 8
+      }
+    },
+    "typeDogma": {
+      "added": 0,
+      "changed": 9,
+      "removed": 0
+    },
+    "typeElements": {
+      "added": 422,
+      "changed": 0,
+      "changelogFlags": [
+        "fileAdded"
+      ],
+      "removed": 0
+    },
+    "types": {
+      "added": 4,
+      "changed": 2,
+      "removed": 0
+    }
+  },
+  "totals": {
+    "added": 4108,
+    "changed": 2608,
+    "deltaLines": 4128,
+    "removed": 0,
+    "schemaOps": 8,
+    "tablesChanged": 21,
+    "tablesCompared": 77
+  },
+  "verification": {
+    "changelogCoverage": "complete",
+    "errorDetails": [],
+    "errors": 0,
+    "info": 0,
+    "mode": "verify-all",
+    "status": "ok"
+  }
+}

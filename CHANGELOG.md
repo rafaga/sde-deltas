@@ -3,6 +3,241 @@
 Changes between consecutive builds of the EVE Online Static Data Export, generated from `deltas/*/manifest.json`.
 It lists tables and counts only; the values are in `deltas/<build>/delta.jsonl.gz`.
 
+## Build 3409592 (2026-06-25) - base 3407448
+
+- 2 tables changed: +1 added, -0 removed, ~10081 modified, 1 schema operations
+  - `militaryCampaignObjectives`: +1 -0 ~9
+  - `types`: +0 -0 ~10072 [schema: add_path x1]
+
+## Build 3407448 (2026-06-24) - base 3405148
+
+- 3 tables changed: +933 added, -0 removed, ~947 modified, 1 schema operations
+  - `graphicMaterialSets`: +931 -0 ~0
+  - `militaryCampaignObjectives`: +2 -0 ~14
+  - `types`: +0 -0 ~933 [schema: add_path x1]
+
+## Build 3405148 (2026-06-23) - base 3402511
+
+- 21 tables changed: +4108 added, -0 removed, ~2608 modified, 8 schema operations
+  - `epicArcs`: +21 -0 ~0
+  - `graphics`: +0 -0 ~1
+  - `militaryCampaignObjectives`: +39 -0 ~0
+  - `militaryCampaigns`: +4 -0 ~0
+  - `missions`: +2892 -0 ~0
+  - `shipTreeElements`: +30 -0 ~0
+  - `shipTreeFactions`: +17 -0 ~0
+  - `shipTreeGroups`: +52 -0 ~0
+  - `skinrComponentCategories`: +3 -0 ~0
+  - `skinrComponentPointValues`: +3 -0 ~0
+  - `skinrComponentRarities`: +6 -0 ~0
+  - `skinrComponents`: +543 -0 ~0
+  - `skinrSlotCategories`: +3 -0 ~0
+  - `skinrSlotConfigurations`: +4 -0 ~0
+  - `skinrSlotNames`: +8 -0 ~0
+  - `skinrSlots`: +8 -0 ~0
+  - `skinrTierThresholds`: +49 -0 ~0
+  - `skins`: +0 -0 ~2596 [schema: drop_path x8]
+  - `typeDogma`: +0 -0 ~9
+  - `typeElements`: +422 -0 ~0
+  - `types`: +4 -0 ~2
+
+## Build 3402511 (2026-06-22) - base 3400955
+
+- 1 tables changed: +0 added, -0 removed, ~14 modified, 0 schema operations
+  - `types`: +0 -0 ~14
+
+## Build 3400955 (2026-06-19) - base 3396210
+
+- 6 tables changed: +82 added, -0 removed, ~19 modified, 0 schema operations
+  - `icons`: +27 -0 ~0
+  - `skinLicenses`: +10 -0 ~0
+  - `skins`: +10 -0 ~1
+  - `typeDogma`: +0 -0 ~4
+  - `typeLists`: +0 -0 ~1
+  - `types`: +35 -0 ~13
+
+## Build 3396210 (2026-06-16) - base 3393779
+
+- 9 tables changed: +17 added, -0 removed, ~17 modified, 0 schema operations
+  - `dbuffCollections`: +1 -0 ~1
+  - `dogmaAttributes`: +0 -0 ~1
+  - `dungeons`: +4 -0 ~0
+  - `graphics`: +1 -0 ~0
+  - `races`: +0 -0 ~4
+  - `stationOperations`: +0 -0 ~1
+  - `typeDogma`: +5 -0 ~5
+  - `typeMaterials`: +1 -0 ~0
+  - `types`: +5 -0 ~5
+
+## Build 3393779 (2026-06-14) - base 3389399
+
+- 8 tables changed: +1 added, -0 removed, ~183 modified, 0 schema operations
+  - `dbuffCollections`: +0 -0 ~1
+  - `dogmaAttributes`: +0 -0 ~3
+  - `npcCharacters`: +0 -0 ~8
+  - `skinMaterials`: +0 -0 ~1
+  - `skins`: +0 -0 ~9
+  - `typeDogma`: +0 -0 ~10
+  - `typeLists`: +1 -0 ~4
+  - `types`: +0 -0 ~147
+
+## Build 3389399 (2026-06-11) - base 3386912
+
+- 1 tables changed: +0 added, -0 removed, ~1 modified, 0 schema operations
+  - `typeDogma`: +0 -0 ~1
+
+## Build 3386912 (2026-06-10) - base 3383521
+
+- 7 tables changed: +27 added, -0 removed, ~155 modified, 0 schema operations
+  - `blueprints`: +0 -0 ~1
+  - `characterTitles`: +1 -0 ~0
+  - `dogmaEffects`: +1 -0 ~0
+  - `graphics`: +12 -0 ~0
+  - `typeDogma`: +1 -0 ~37
+  - `typeLists`: +0 -0 ~3
+  - `types`: +12 -0 ~114
+
+## Build 3383521 (2026-06-09) - base 3374020
+
+- 28 tables changed: +1292 added, -0 removed, ~801 modified, 0 schema operations
+  - `blueprints`: +6 -0 ~8
+  - `certificates`: +3 -0 ~19
+  - `characterTitles`: +42 -0 ~0
+  - `compressibleTypes`: +4 -0 ~0
+  - `dbuffCollections`: +30 -0 ~0
+  - `dogmaAttributes`: +22 -0 ~12
+  - `dogmaEffects`: +30 -0 ~17
+  - `dungeons`: +22 -0 ~8
+  - `dynamicItemAttributes`: +0 -0 ~14
+  - `freelanceJobSchemas`: +0 -0 ~1
+  - `graphics`: +67 -0 ~7
+  - `groups`: +6 -0 ~0
+  - `icons`: +96 -0 ~0
+  - `mapRegions`: +0 -0 ~1
+  - `mapSolarSystems`: +0 -0 ~60
+  - `mapStargates`: +8 -0 ~116
+  - `marketGroups`: +7 -0 ~0
+  - `masteries`: +4 -0 ~5
+  - `npcCharacters`: +29 -0 ~18
+  - `npcCorporations`: +0 -0 ~13
+  - `skinLicenses`: +86 -0 ~0
+  - `skinMaterials`: +3 -0 ~0
+  - `skins`: +86 -0 ~20
+  - `typeBonus`: +4 -0 ~16
+  - `typeDogma`: +220 -0 ~223
+  - `typeLists`: +12 -0 ~26
+  - `typeMaterials`: +30 -0 ~0
+  - `types`: +475 -0 ~217
+
+## Build 3374020 (2026-06-03) - base 3368760
+
+- 2 tables changed: +10 added, -0 removed, ~53 modified, 0 schema operations
+  - `dungeons`: +10 -0 ~0
+  - `mapSolarSystems`: +0 -0 ~53
+
+## Build 3368760 (2026-06-01) - base 3366957
+
+- 4 tables changed: +45 added, -0 removed, ~9 modified, 0 schema operations
+  - `icons`: +2 -0 ~0
+  - `npcCharacters`: +40 -0 ~0
+  - `skins`: +0 -0 ~1
+  - `types`: +3 -0 ~8
+
+## Build 3366957 (2026-05-29) - base 3365090
+
+- 2 tables changed: +0 added, -0 removed, ~3 modified, 0 schema operations
+  - `skins`: +0 -0 ~1
+  - `types`: +0 -0 ~2
+
+## Build 3365090 (2026-05-28) - base 3363422
+
+- 2 tables changed: +0 added, -0 removed, ~5 modified, 0 schema operations
+  - `typeLists`: +0 -0 ~4
+  - `types`: +0 -0 ~1
+
+## Build 3363422 (2026-05-27) - base 3351823
+
+- 16 tables changed: +68 added, -0 removed, ~221 modified, 0 schema operations
+  - `blueprints`: +4 -0 ~0
+  - `certificates`: +0 -0 ~17
+  - `dbuffCollections`: +0 -0 ~4
+  - `dogmaAttributes`: +3 -0 ~1
+  - `dogmaEffects`: +14 -0 ~0
+  - `dungeons`: +0 -0 ~3
+  - `graphics`: +4 -0 ~0
+  - `groups`: +0 -0 ~1
+  - `marketGroups`: +0 -0 ~1
+  - `masteries`: +4 -0 ~0
+  - `skins`: +0 -0 ~7
+  - `typeBonus`: +4 -0 ~1
+  - `typeDogma`: +9 -0 ~10
+  - `typeLists`: +0 -0 ~1
+  - `typeMaterials`: +4 -0 ~4
+  - `types`: +22 -0 ~171
+
+## Build 3351823 (2026-05-19) - base 3346029
+
+- 15 tables changed: +30 added, -0 removed, ~183 modified, 0 schema operations
+  - `archetypes`: +0 -0 ~1
+  - `dungeons`: +0 -0 ~3
+  - `graphics`: +1 -0 ~1
+  - `icons`: +1 -0 ~0
+  - `mapMoons`: +0 -0 ~4
+  - `mapPlanets`: +0 -0 ~2
+  - `mapRegions`: +0 -0 ~1
+  - `mapSolarSystems`: +0 -0 ~106
+  - `npcCharacters`: +18 -0 ~0
+  - `npcStations`: +0 -0 ~43
+  - `skinMaterials`: +0 -0 ~1
+  - `skins`: +0 -0 ~1
+  - `stationOperations`: +0 -0 ~1
+  - `typeLists`: +0 -0 ~2
+  - `types`: +10 -0 ~17
+
+## Build 3346029 (2026-05-13) - base 3343457
+
+- 4 tables changed: +31 added, -0 removed, ~3 modified, 0 schema operations
+  - `skinLicenses`: +10 -0 ~0
+  - `skinMaterials`: +1 -0 ~0
+  - `skins`: +10 -0 ~0
+  - `types`: +10 -0 ~3
+
+## Build 3343457 (2026-05-12) - base 3333874
+
+- 10 tables changed: +31 added, -0 removed, ~11 modified, 0 schema operations
+  - `graphics`: +6 -0 ~0
+  - `icons`: +5 -0 ~0
+  - `mapMoons`: +0 -0 ~1
+  - `mapPlanets`: +0 -0 ~2
+  - `mapSolarSystems`: +0 -0 ~1
+  - `npcCorporations`: +0 -0 ~6
+  - `npcStations`: +3 -0 ~0
+  - `stationOperations`: +1 -0 ~1
+  - `typeDogma`: +8 -0 ~0
+  - `types`: +8 -0 ~0
+
+## Build 3333874 (2026-05-06) - base 3331751
+
+- 6 tables changed: +0 added, -0 removed, ~327 modified, 0 schema operations
+  - `dbuffCollections`: +0 -0 ~10
+  - `dogmaAttributes`: +0 -0 ~2
+  - `dungeons`: +0 -0 ~3
+  - `groups`: +0 -0 ~9
+  - `skinMaterials`: +0 -0 ~4
+  - `types`: +0 -0 ~299
+
+## Build 3331751 (2026-05-05) - base 3328718
+
+- 8 tables changed: +29 added, -0 removed, ~90 modified, 0 schema operations
+  - `dungeons`: +0 -0 ~1
+  - `mapConstellations`: +0 -0 ~14
+  - `mapRegions`: +0 -0 ~1
+  - `skinLicenses`: +5 -0 ~0
+  - `skins`: +5 -0 ~0
+  - `typeDogma`: +7 -0 ~28
+  - `typeLists`: +0 -0 ~1
+  - `types`: +12 -0 ~45
+
 ## Build 3328718 (2026-05-01) - base 3326071
 
 - 8 tables changed: +36 added, -0 removed, ~27 modified, 0 schema operations

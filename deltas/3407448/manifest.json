@@ -1,0 +1,149 @@
+{
+  "build": 3407448,
+  "counts": {
+    "agentTypes": 13,
+    "agentsInSpace": 360,
+    "ancestries": 43,
+    "archetypes": 34,
+    "bloodlines": 18,
+    "blueprints": 5081,
+    "categories": 48,
+    "certificates": 139,
+    "characterAttributes": 5,
+    "characterTitles": 43,
+    "cloneGrades": 4,
+    "compressibleTypes": 212,
+    "contrabandTypes": 8,
+    "controlTowerResources": 44,
+    "corporationActivities": 20,
+    "dbuffCollections": 270,
+    "dogmaAttributeCategories": 37,
+    "dogmaAttributes": 2855,
+    "dogmaEffects": 3411,
+    "dogmaUnits": 60,
+    "dungeons": 1404,
+    "dynamicItemAttributes": 413,
+    "epicArcs": 21,
+    "factions": 27,
+    "freelanceJobSchemas": 1,
+    "graphicMaterialSets": 931,
+    "graphics": 6021,
+    "groups": 1605,
+    "icons": 4648,
+    "landmarks": 45,
+    "mapAsteroidBelts": 40928,
+    "mapConstellations": 1184,
+    "mapMoons": 344457,
+    "mapPlanets": 68407,
+    "mapRegions": 114,
+    "mapSecondarySuns": 1038,
+    "mapSolarSystems": 8490,
+    "mapStargates": 13978,
+    "mapStars": 8089,
+    "marketGroups": 2102,
+    "masteries": 476,
+    "mercenaryTacticalOperations": 3,
+    "metaGroups": 13,
+    "militaryCampaignObjectives": 41,
+    "militaryCampaigns": 4,
+    "missions": 2892,
+    "npcCharacters": 11393,
+    "npcCorporationDivisions": 10,
+    "npcCorporations": 283,
+    "npcStations": 5210,
+    "planetResources": 25798,
+    "planetSchematics": 68,
+    "races": 11,
+    "shipTreeElements": 30,
+    "shipTreeFactions": 17,
+    "shipTreeGroups": 52,
+    "skinLicenses": 11794,
+    "skinMaterials": 859,
+    "skinrComponentCategories": 3,
+    "skinrComponentPointValues": 3,
+    "skinrComponentRarities": 6,
+    "skinrComponents": 543,
+    "skinrSlotCategories": 3,
+    "skinrSlotConfigurations": 4,
+    "skinrSlotNames": 8,
+    "skinrSlots": 8,
+    "skinrTierThresholds": 49,
+    "skins": 6965,
+    "sovereigntyUpgrades": 49,
+    "stationOperations": 68,
+    "stationServices": 27,
+    "translationLanguages": 8,
+    "typeBonus": 650,
+    "typeDogma": 26724,
+    "typeElements": 422,
+    "typeLists": 460,
+    "typeMaterials": 9548,
+    "types": 52630
+  },
+  "files": {
+    "delta.jsonl.gz": {
+      "bytes": 64215,
+      "sha256": "f2ddeacba6207e31817cb7345f2167db8ae02e0ac2af1feaf37e6507cc916231"
+    },
+    "schema_delta.csv": {
+      "bytes": 1321,
+      "sha256": "7c74d673fc62524472da823f02e958abfab2ef0878f5bff2fa3fcb637637de5b"
+    },
+    "summary.csv": {
+      "bytes": 2728,
+      "sha256": "6d6dced71df5b02cce51b5c233359c4067d1cbf296e2d24575401f0afaa11d5c"
+    },
+    "verification.csv": {
+      "bytes": 25,
+      "sha256": "88eb970f4841cc8dfded9fa18c27ce495639d3de945343de7c830dcbde914171"
+    }
+  },
+  "formatVersion": 1,
+  "lastBuild": 3405148,
+  "notice": "© 2014 CCP hf. All rights reserved. \"EVE\", \"EVE Online\", \"CCP\", and all related logos and images are trademarks or registered trademarks of CCP hf. This data is derived from the EVE Online Static Data Export and is the property of CCP hf.; see NOTICE. No official affiliation or endorsement by CCP Games is stated or implied.",
+  "releaseDate": "2026-06-24T12:03:42Z",
+  "source": "https://developers.eveonline.com/static-data/tranquility",
+  "tables": {
+    "graphicMaterialSets": {
+      "added": 931,
+      "changed": 0,
+      "changelogFlags": [
+        "fileAdded"
+      ],
+      "removed": 0
+    },
+    "militaryCampaignObjectives": {
+      "added": 2,
+      "changed": 14,
+      "removed": 0
+    },
+    "types": {
+      "added": 0,
+      "changed": 933,
+      "changelogFlags": [
+        "schemaChanged"
+      ],
+      "removed": 0,
+      "schemaOps": {
+        "add_path": 1
+      }
+    }
+  },
+  "totals": {
+    "added": 933,
+    "changed": 947,
+    "deltaLines": 1881,
+    "removed": 0,
+    "schemaOps": 1,
+    "tablesChanged": 3,
+    "tablesCompared": 78
+  },
+  "verification": {
+    "changelogCoverage": "complete",
+    "errorDetails": [],
+    "errors": 0,
+    "info": 0,
+    "mode": "verify-all",
+    "status": "ok"
+  }
+}

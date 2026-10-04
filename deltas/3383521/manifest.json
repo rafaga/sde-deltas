@@ -1,0 +1,250 @@
+{
+  "build": 3383521,
+  "counts": {
+    "agentTypes": 13,
+    "agentsInSpace": 360,
+    "ancestries": 43,
+    "archetypes": 34,
+    "bloodlines": 18,
+    "blueprints": 5081,
+    "categories": 48,
+    "certificates": 139,
+    "characterAttributes": 5,
+    "characterTitles": 42,
+    "cloneGrades": 4,
+    "compressibleTypes": 212,
+    "contrabandTypes": 8,
+    "controlTowerResources": 44,
+    "corporationActivities": 20,
+    "dbuffCollections": 269,
+    "dogmaAttributeCategories": 37,
+    "dogmaAttributes": 2855,
+    "dogmaEffects": 3410,
+    "dogmaUnits": 60,
+    "dungeons": 1400,
+    "dynamicItemAttributes": 413,
+    "factions": 27,
+    "freelanceJobSchemas": 1,
+    "graphics": 6008,
+    "groups": 1605,
+    "icons": 4621,
+    "landmarks": 45,
+    "mapAsteroidBelts": 40928,
+    "mapConstellations": 1184,
+    "mapMoons": 344457,
+    "mapPlanets": 68407,
+    "mapRegions": 114,
+    "mapSecondarySuns": 1038,
+    "mapSolarSystems": 8490,
+    "mapStargates": 13978,
+    "mapStars": 8089,
+    "marketGroups": 2102,
+    "masteries": 476,
+    "mercenaryTacticalOperations": 3,
+    "metaGroups": 13,
+    "npcCharacters": 11393,
+    "npcCorporationDivisions": 10,
+    "npcCorporations": 283,
+    "npcStations": 5210,
+    "planetResources": 25798,
+    "planetSchematics": 68,
+    "races": 11,
+    "skinLicenses": 11784,
+    "skinMaterials": 859,
+    "skins": 6955,
+    "sovereigntyUpgrades": 49,
+    "stationOperations": 68,
+    "stationServices": 27,
+    "translationLanguages": 8,
+    "typeBonus": 650,
+    "typeDogma": 26718,
+    "typeLists": 459,
+    "typeMaterials": 9547,
+    "types": 52574
+  },
+  "files": {
+    "delta.jsonl.gz": {
+      "bytes": 350782,
+      "sha256": "2be4325b426e91c4e80d0b06be864982462f3a5e8328376ed4c6846645012790"
+    },
+    "schema_delta.csv": {
+      "bytes": 319,
+      "sha256": "b33376e6e22892cbaee88a68949dedbbac4494dbb3d462c53f44028a69c2faf9"
+    },
+    "summary.csv": {
+      "bytes": 2122,
+      "sha256": "4cdbc396f12cbc7c71016e2ad3a8626dce1f182121a9ff00835b71c8804e2c36"
+    },
+    "verification.csv": {
+      "bytes": 25,
+      "sha256": "88eb970f4841cc8dfded9fa18c27ce495639d3de945343de7c830dcbde914171"
+    }
+  },
+  "formatVersion": 1,
+  "lastBuild": 3374020,
+  "notice": "© 2014 CCP hf. All rights reserved. \"EVE\", \"EVE Online\", \"CCP\", and all related logos and images are trademarks or registered trademarks of CCP hf. This data is derived from the EVE Online Static Data Export and is the property of CCP hf.; see NOTICE. No official affiliation or endorsement by CCP Games is stated or implied.",
+  "releaseDate": "2026-06-09T11:08:07Z",
+  "source": "https://developers.eveonline.com/static-data/tranquility",
+  "tables": {
+    "blueprints": {
+      "added": 6,
+      "changed": 8,
+      "removed": 0
+    },
+    "certificates": {
+      "added": 3,
+      "changed": 19,
+      "removed": 0
+    },
+    "characterTitles": {
+      "added": 42,
+      "changed": 0,
+      "changelogFlags": [
+        "fileAdded"
+      ],
+      "removed": 0
+    },
+    "compressibleTypes": {
+      "added": 4,
+      "changed": 0,
+      "removed": 0
+    },
+    "dbuffCollections": {
+      "added": 30,
+      "changed": 0,
+      "removed": 0
+    },
+    "dogmaAttributes": {
+      "added": 22,
+      "changed": 12,
+      "removed": 0
+    },
+    "dogmaEffects": {
+      "added": 30,
+      "changed": 17,
+      "removed": 0
+    },
+    "dungeons": {
+      "added": 22,
+      "changed": 8,
+      "removed": 0
+    },
+    "dynamicItemAttributes": {
+      "added": 0,
+      "changed": 14,
+      "removed": 0
+    },
+    "freelanceJobSchemas": {
+      "added": 0,
+      "changed": 1,
+      "removed": 0
+    },
+    "graphics": {
+      "added": 67,
+      "changed": 7,
+      "removed": 0
+    },
+    "groups": {
+      "added": 6,
+      "changed": 0,
+      "removed": 0
+    },
+    "icons": {
+      "added": 96,
+      "changed": 0,
+      "removed": 0
+    },
+    "mapRegions": {
+      "added": 0,
+      "changed": 1,
+      "removed": 0
+    },
+    "mapSolarSystems": {
+      "added": 0,
+      "changed": 60,
+      "removed": 0
+    },
+    "mapStargates": {
+      "added": 8,
+      "changed": 116,
+      "removed": 0
+    },
+    "marketGroups": {
+      "added": 7,
+      "changed": 0,
+      "removed": 0
+    },
+    "masteries": {
+      "added": 4,
+      "changed": 5,
+      "removed": 0
+    },
+    "npcCharacters": {
+      "added": 29,
+      "changed": 18,
+      "removed": 0
+    },
+    "npcCorporations": {
+      "added": 0,
+      "changed": 13,
+      "removed": 0
+    },
+    "skinLicenses": {
+      "added": 86,
+      "changed": 0,
+      "removed": 0
+    },
+    "skinMaterials": {
+      "added": 3,
+      "changed": 0,
+      "removed": 0
+    },
+    "skins": {
+      "added": 86,
+      "changed": 20,
+      "removed": 0
+    },
+    "typeBonus": {
+      "added": 4,
+      "changed": 16,
+      "removed": 0
+    },
+    "typeDogma": {
+      "added": 220,
+      "changed": 223,
+      "removed": 0
+    },
+    "typeLists": {
+      "added": 12,
+      "changed": 26,
+      "removed": 0
+    },
+    "typeMaterials": {
+      "added": 30,
+      "changed": 0,
+      "removed": 0
+    },
+    "types": {
+      "added": 475,
+      "changed": 217,
+      "removed": 0
+    }
+  },
+  "totals": {
+    "added": 1292,
+    "changed": 801,
+    "deltaLines": 2093,
+    "removed": 0,
+    "schemaOps": 0,
+    "tablesChanged": 28,
+    "tablesCompared": 60
+  },
+  "verification": {
+    "changelogCoverage": "complete",
+    "errorDetails": [],
+    "errors": 0,
+    "info": 0,
+    "mode": "verify-all",
+    "status": "ok"
+  }
+}

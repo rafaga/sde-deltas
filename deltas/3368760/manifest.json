@@ -1,0 +1,126 @@
+{
+  "build": 3368760,
+  "counts": {
+    "agentTypes": 13,
+    "agentsInSpace": 360,
+    "ancestries": 43,
+    "archetypes": 34,
+    "bloodlines": 18,
+    "blueprints": 5075,
+    "categories": 48,
+    "certificates": 136,
+    "characterAttributes": 5,
+    "cloneGrades": 4,
+    "compressibleTypes": 208,
+    "contrabandTypes": 8,
+    "controlTowerResources": 44,
+    "corporationActivities": 20,
+    "dbuffCollections": 239,
+    "dogmaAttributeCategories": 37,
+    "dogmaAttributes": 2833,
+    "dogmaEffects": 3380,
+    "dogmaUnits": 60,
+    "dungeons": 1368,
+    "dynamicItemAttributes": 413,
+    "factions": 27,
+    "freelanceJobSchemas": 1,
+    "graphics": 5941,
+    "groups": 1599,
+    "icons": 4525,
+    "landmarks": 45,
+    "mapAsteroidBelts": 40928,
+    "mapConstellations": 1184,
+    "mapMoons": 344457,
+    "mapPlanets": 68407,
+    "mapRegions": 114,
+    "mapSecondarySuns": 1038,
+    "mapSolarSystems": 8490,
+    "mapStargates": 13970,
+    "mapStars": 8089,
+    "marketGroups": 2095,
+    "masteries": 472,
+    "mercenaryTacticalOperations": 3,
+    "metaGroups": 13,
+    "npcCharacters": 11364,
+    "npcCorporationDivisions": 10,
+    "npcCorporations": 283,
+    "npcStations": 5210,
+    "planetResources": 25798,
+    "planetSchematics": 68,
+    "races": 11,
+    "skinLicenses": 11698,
+    "skinMaterials": 856,
+    "skins": 6869,
+    "sovereigntyUpgrades": 49,
+    "stationOperations": 68,
+    "stationServices": 27,
+    "translationLanguages": 8,
+    "typeBonus": 646,
+    "typeDogma": 26498,
+    "typeLists": 447,
+    "typeMaterials": 9517,
+    "types": 52099
+  },
+  "files": {
+    "delta.jsonl.gz": {
+      "bytes": 16116,
+      "sha256": "c9f85f7534e63a10ca1dd81aa2aef27ab45054cba431e0af8eaf716ae91fc02d"
+    },
+    "schema_delta.csv": {
+      "bytes": 23,
+      "sha256": "06b08f3ca326bcf115cbe00328258d0fa60856a9d993542b82818ecd06cef5ea"
+    },
+    "summary.csv": {
+      "bytes": 2018,
+      "sha256": "18064bff71ffb9d7c7b19ae85c9751f78c29772594395e420c66d442d63cfded"
+    },
+    "verification.csv": {
+      "bytes": 25,
+      "sha256": "88eb970f4841cc8dfded9fa18c27ce495639d3de945343de7c830dcbde914171"
+    }
+  },
+  "formatVersion": 1,
+  "lastBuild": 3366957,
+  "notice": "© 2014 CCP hf. All rights reserved. \"EVE\", \"EVE Online\", \"CCP\", and all related logos and images are trademarks or registered trademarks of CCP hf. This data is derived from the EVE Online Static Data Export and is the property of CCP hf.; see NOTICE. No official affiliation or endorsement by CCP Games is stated or implied.",
+  "releaseDate": "2026-06-01T13:02:26Z",
+  "source": "https://developers.eveonline.com/static-data/tranquility",
+  "tables": {
+    "icons": {
+      "added": 2,
+      "changed": 0,
+      "removed": 0
+    },
+    "npcCharacters": {
+      "added": 40,
+      "changed": 0,
+      "removed": 0
+    },
+    "skins": {
+      "added": 0,
+      "changed": 1,
+      "removed": 0
+    },
+    "types": {
+      "added": 3,
+      "changed": 8,
+      "removed": 0
+    }
+  },
+  "totals": {
+    "added": 45,
+    "changed": 9,
+    "deltaLines": 54,
+    "removed": 0,
+    "schemaOps": 0,
+    "tablesChanged": 4,
+    "tablesCompared": 59
+  },
+  "verification": {
+    "changelogCoverage": "complete",
+    "errorDetails": [],
+    "errors": 0,
+    "info": 0,
+    "mode": "verify-all",
+    "status": "ok"
+  }
+}
