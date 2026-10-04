@@ -83,6 +83,21 @@ class Manifest(unittest.TestCase):
     def test_manifest_is_deterministic(self):
         self.assertEqual(self.build(result())[1], self.build(result())[1])   # sin fechas de ejecucion
 
+    def test_record_counts_are_published_when_known(self):
+        self.assertNotIn("counts", self.build(result())[0])
+        res = dict(result(), counts={"same": 3, "types": 7})
+        self.assertEqual(self.build(res)[0]["counts"], {"same": 3, "types": 7})
+
+    def test_count_records_counts_distinct_ids_like_load_table(self):
+        import io, zipfile
+        buf = io.BytesIO()
+        with zipfile.ZipFile(buf, "w") as z:
+            z.writestr("t.jsonl", '{"_key": 1, "a": 2}\n\n{"_key":2}\n{"_key": "x\\"y"}\n'
+                                  '{"_key": 1, "dup": true}\n{"a": 1, "_key": 9}\n')
+        with zipfile.ZipFile(buf) as z:
+            self.assertEqual(s.count_records(z, "t.jsonl"), 4)
+            self.assertEqual(s.count_records(z, "t.jsonl"), len(s.load_table(z, "t.jsonl")))
+
 
 class IndexAndChangelog(unittest.TestCase):
     def test_processed_builds_ignores_tmp_and_incomplete_dirs(self):

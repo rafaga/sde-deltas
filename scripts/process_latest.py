@@ -119,6 +119,8 @@ def write_manifest(out_dir, build, last, release_date, res, verify_all):
         "tables": tables,
         "files": files,
     }
+    if res.get("counts") is not None:
+        manifest["counts"] = res["counts"]   # registros de cada tabla del build, cambie o no
     with open(os.path.join(out_dir, "manifest.json"), "w", encoding="utf-8", newline="\n") as f:
         json.dump(manifest, f, ensure_ascii=False, indent=2, sort_keys=True)
         f.write("\n")

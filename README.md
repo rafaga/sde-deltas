@@ -12,7 +12,7 @@ added, removed or changed compared with the previous build, down to field level.
 |---|---|
 | `deltas/index.json` | The chain of builds: for each one, its previous build, release date, verification status and size. |
 | `deltas/<build>/delta.jsonl.gz` | The delta from the previous build to `<build>` (format below). |
-| `deltas/<build>/manifest.json` | Build metadata, per-table counts, file hashes, verification result and the CCP notice. |
+| `deltas/<build>/manifest.json` | Build metadata, per-table change counts, record counts of every table (`counts`), file hashes, verification result and the CCP notice. |
 | `deltas/<build>/summary.csv` | Per table: IDs announced by CCP's changelog vs IDs actually found. |
 | `deltas/<build>/verification.csv` | Mismatches between CCP's changelog and the data (empty when everything agrees). |
 | `deltas/<build>/schema_delta.csv` | Field additions, removals and renames per table. |
@@ -60,6 +60,9 @@ of the previous build. Records are the same JSON objects the SDE `jsonl` export 
    the lines in order.
 3. Decide what to do with tables you do not use: ignore them. For tables you do use, treat `add_path`, `drop_path`,
    `rename_path` and `rename_table` as a signal that your mapping may need attention.
+4. Optionally compare your copy with `counts` in the last build's `manifest.json`: the number of records (distinct IDs)
+   of every table in that build, changed or not. A different count means your copy drifted from the SDE. Builds
+   published before `counts` was added don't have it.
 
 `manifest.json` has `"verification": {"status": "ok" | "warn"}`. `warn` means the data disagrees with CCP's own
 changelog (for example, CCP's changelog omitting a removed record) or the changelog chain is incomplete; the details are

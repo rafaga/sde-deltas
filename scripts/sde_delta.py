@@ -154,6 +154,22 @@ def load_table(z, member):
     return out
 
 
+KEY_PREFIX = re.compile(rb'\s*\{\s*"_key"\s*:\s*("(?:[^"\\]|\\.)*"|-?\d+)')
+
+
+def count_records(z, member):
+    """Registros (IDs distintos) de una tabla del zip, como len(load_table(...)) pero sin parsear cada linea:
+    el _key va al principio del registro; si no esta ahi, se parsea la linea."""
+    keys = set()
+    with z.open(member) as f:
+        for line in f:
+            if not line.strip():
+                continue
+            m = KEY_PREFIX.match(line)
+            keys.add(m.group(1).decode("utf-8") if m else json.dumps(json.loads(line).get("_key")))
+    return len(keys)
+
+
 # ---------- 3. comparacion ----------
 def flat(v, prefix="", out=None, schema=False):
     """Aplana a rutas. schema=True normaliza indices de lista a [] (notacion del YAML)."""
@@ -433,11 +449,14 @@ def run(a, b, out_root, changes_dir=None, variant="jsonl", verify_all=False, mea
     os.makedirs(out, exist_ok=True)
     delta = DeltaWriter(out, gzip_delta)
     summary, verif, sdelta, measures, stats = [], [], [], [], []
+    loaded = {}   # registros de B por tabla ya cargada, para no releerla al contar
 
     for t in tables:
         src = renamed.get(t, t)   # nombre de la tabla en A
         A = load_table(za, ta_names[src]) if src in ta_names else {}
         B = load_table(zb, tb_names[t]) if t in tb_names else {}
+        if t in tb_names:
+            loaded[t] = len(B)
         added, removed = set(B) - set(A), set(A) - set(B)
         changed = {i for i in set(A) & set(B) if A[i] != B[i]}
         pa, pb = schema_paths(A), schema_paths(B)
@@ -507,6 +526,9 @@ def run(a, b, out_root, changes_dir=None, variant="jsonl", verify_all=False, mea
               + (f"  esquema: {len(sch[0])} ops ({n_ren} renombres)" if sch[0] else "")
               + (f"  [{';'.join(sorted(flags))}]" if flags else ""))
     delta.close()
+    # registros de cada tabla de B: el consumidor puede comprobar que su copia parcheada tiene los mismos
+    counts = {t: loaded[t] if t in loaded else count_records(zb, m)
+              for t, m in sorted(tb_names.items()) if t != "_sde"}
 
     def wcsv(name, header, rows):
         with open(os.path.join(out, name), "w", newline="", encoding="utf-8") as f:
@@ -530,7 +552,7 @@ def run(a, b, out_root, changes_dir=None, variant="jsonl", verify_all=False, mea
     print("salida en", os.path.abspath(out))
     errors = [{"table": v[0], "id": v[1], "issue": v[2]} for v in verif if v[3] == "error"]
     return {"a": a, "b": b, "complete": complete, "out_dir": out, "delta_file": delta.path,
-            "delta_lines": delta.lines, "tables_compared": len(tables), "tables": stats,
+            "delta_lines": delta.lines, "tables_compared": len(tables), "tables": stats, "counts": counts,
             "verification": {"errors": n_err, "info": len(verif) - n_err, "error_details": errors[:100]}}
 
 
