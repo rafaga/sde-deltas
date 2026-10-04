@@ -3,6 +3,27 @@
 Changes between consecutive builds of the EVE Online Static Data Export, generated from `deltas/*/manifest.json`.
 It lists tables and counts only; the values are in `deltas/<build>/delta.jsonl.gz`.
 
+## Build 3569502 (2026-10-02) - base 3561556
+
+- 1 tables changed: +0 added, -0 removed, ~1 modified, 0 schema operations
+  - `missions`: +0 -0 ~1
+
+## Build 3561556 (2026-09-30) - base 3552227
+
+- 1 tables changed: +0 added, -0 removed, ~35 modified, 0 schema operations
+  - `typeDogma`: +0 -0 ~35
+
+## Build 3552227 (2026-09-28) - base 3542233
+
+- 7 tables changed: +39 added, -0 removed, ~6 modified, 0 schema operations
+  - `characterTitles`: +2 -0 ~0
+  - `graphicMaterialSets`: +9 -0 ~0
+  - `militaryCampaignObjectives`: +8 -0 ~0
+  - `skinLicenses`: +5 -0 ~0
+  - `skinMaterials`: +5 -0 ~2
+  - `skins`: +5 -0 ~0
+  - `types`: +5 -0 ~4
+
 ## Build 3542233 (2026-09-24) - base 3539543
 
 - 3 tables changed: +2 added, -0 removed, ~1 modified, 0 schema operations
