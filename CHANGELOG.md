@@ -3,6 +3,33 @@
 Changes between consecutive builds of the EVE Online Static Data Export, generated from `deltas/*/manifest.json`.
 It lists tables and counts only; the values are in `deltas/<build>/delta.jsonl.gz`.
 
+## Build 3579973 (2026-10-06) - base 3569502
+
+- 23 tables changed: +463 added, -0 removed, ~62 modified, 0 schema operations
+  - `appliedProximityEffects`: +1 -0 ~0
+  - `blueprints`: +18 -0 ~1
+  - `certificates`: +0 -0 ~7
+  - `dbuffCollections`: +1 -0 ~0
+  - `dogmaEffects`: +5 -0 ~0
+  - `dungeons`: +1 -0 ~3
+  - `dynamicItemAttributes`: +24 -0 ~0
+  - `expertSystems`: +1 -0 ~0
+  - `graphicMaterialSets`: +3 -0 ~0
+  - `graphics`: +3 -0 ~0
+  - `icons`: +37 -0 ~0
+  - `masteries`: +1 -0 ~0
+  - `shipTreeGroups`: +0 -0 ~1
+  - `skinLicenses`: +21 -0 ~0
+  - `skinMaterials`: +3 -0 ~0
+  - `skinrComponents`: +16 -0 ~0
+  - `skins`: +21 -0 ~0
+  - `typeBonus`: +1 -0 ~0
+  - `typeDogma`: +69 -0 ~33
+  - `typeElements`: +1 -0 ~0
+  - `typeLists`: +2 -0 ~0
+  - `typeMaterials`: +11 -0 ~0
+  - `types`: +223 -0 ~17
+
 ## Build 3569502 (2026-10-02) - base 3561556
 
 - 1 tables changed: +0 added, -0 removed, ~1 modified, 0 schema operations
