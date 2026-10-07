@@ -3,6 +3,17 @@
 Changes between consecutive builds of the EVE Online Static Data Export, generated from `deltas/*/manifest.json`.
 It lists tables and counts only; the values are in `deltas/<build>/delta.jsonl.gz`.
 
+## Build 3586130 (2026-10-07) - base 3579973
+
+- 7 tables changed: +0 added, -0 removed, ~221 modified, 0 schema operations
+  - `dbuffCollections`: +0 -0 ~1
+  - `dungeons`: +0 -0 ~4
+  - `skinMaterials`: +0 -0 ~3
+  - `skinrComponents`: +0 -0 ~16
+  - `typeBonus`: +0 -0 ~1
+  - `typeLists`: +0 -0 ~2
+  - `types`: +0 -0 ~194
+
 ## Build 3579973 (2026-10-06) - base 3569502
 
 - 23 tables changed: +463 added, -0 removed, ~62 modified, 0 schema operations
