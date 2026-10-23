@@ -3,6 +3,13 @@
 Changes between consecutive builds of the EVE Online Static Data Export, generated from `deltas/*/manifest.json`.
 It lists tables and counts only; the values are in `deltas/<build>/delta.jsonl.gz`.
 
+## Build 3646012 (2026-10-23) - base 3632936
+
+- 3 tables changed: +3 added, -0 removed, ~0 modified, 0 schema operations
+  - `skinLicenses`: +1 -0 ~0
+  - `skins`: +1 -0 ~0
+  - `types`: +1 -0 ~0
+
 ## Build 3632936 (2026-10-20) - base 3607705
 
 - 2 tables changed: +0 added, -0 removed, ~2 modified, 0 schema operations
