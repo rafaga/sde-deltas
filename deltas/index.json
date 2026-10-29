@@ -2,7 +2,7 @@
  "formatVersion": 1,
  "source": "https://developers.eveonline.com/static-data/tranquility",
  "firstBuild": 3031812,
- "latestBuild": 3654997,
+ "latestBuild": 3660036,
  "builds": [
   {
    "build": 3031812,
@@ -976,6 +976,13 @@
    "releaseDate": "2026-10-27T11:16:34Z",
    "verification": "ok",
    "deltaBytes": 1012
+  },
+  {
+   "build": 3660036,
+   "lastBuild": 3654997,
+   "releaseDate": "2026-10-29T11:10:30Z",
+   "verification": "ok",
+   "deltaBytes": 3910
   }
  ]
 }
