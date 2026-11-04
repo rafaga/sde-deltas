@@ -3,6 +3,13 @@
 Changes between consecutive builds of the EVE Online Static Data Export, generated from `deltas/*/manifest.json`.
 It lists tables and counts only; the values are in `deltas/<build>/delta.jsonl.gz`.
 
+## Build 3670638 (2026-11-04) - base 3667080
+
+- 3 tables changed: +0 added, -0 removed, ~7 modified, 0 schema operations
+  - `dungeons`: +0 -0 ~4
+  - `skinrSlotConfigurations`: +0 -0 ~1
+  - `types`: +0 -0 ~2
+
 ## Build 3667080 (2026-11-03) - base 3665151
 
 - 7 tables changed: +5 added, -0 removed, ~2 modified, 0 schema operations
