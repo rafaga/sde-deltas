@@ -3,6 +3,56 @@
 Changes between consecutive builds of the EVE Online Static Data Export, generated from `deltas/*/manifest.json`.
 It lists tables and counts only; the values are in `deltas/<build>/delta.jsonl.gz`.
 
+## Build 3682781 (2026-11-10) - base 3670638
+
+- 46 tables changed: +1959 added, -1 removed, ~1351 modified, 0 schema operations
+  - `accountingEntryTypes`: +0 -0 ~2
+  - `archetypes`: +2 -0 ~0
+  - `blueprints`: +35 -0 ~0
+  - `certificates`: +0 -0 ~25
+  - `characterTitles`: +74 -0 ~0
+  - `compressibleTypes`: +8 -0 ~0
+  - `dbuffCollections`: +96 -0 ~1
+  - `dogmaAttributes`: +56 -0 ~11
+  - `dogmaEffects`: +68 -0 ~1
+  - `dungeons`: +101 -0 ~4
+  - `factions`: +0 -0 ~1
+  - `fighterAbilitiesByType`: +0 -0 ~4
+  - `graphicMaterialSets`: +4 -0 ~0
+  - `graphics`: +38 -0 ~0
+  - `groups`: +22 -0 ~0
+  - `icons`: +98 -0 ~0
+  - `mapAsteroidBelts`: +0 -0 ~7
+  - `mapMoons`: +0 -0 ~42
+  - `mapPlanets`: +0 -0 ~12
+  - `mapSolarSystems`: +0 -0 ~6
+  - `mapStargates`: +4 -0 ~5
+  - `marketGroups`: +11 -0 ~1
+  - `masteries`: +17 -0 ~0
+  - `metaGroups`: +2 -0 ~0
+  - `militaryCampaignObjectives`: +16 -0 ~0
+  - `militaryCampaigns`: +4 -0 ~0
+  - `missions`: +0 -0 ~7
+  - `notificationTypes`: +0 -0 ~1
+  - `npcCharacters`: +6 -0 ~1
+  - `npcCorporationDivisions`: +0 -0 ~1
+  - `npcCorporations`: +0 -0 ~26
+  - `npcStations`: +1 -0 ~0
+  - `skillPlans`: +0 -0 ~12
+  - `skinLicenses`: +29 -0 ~0
+  - `skinMaterials`: +2 -0 ~0
+  - `skinrComponents`: +17 -0 ~0
+  - `skins`: +29 -0 ~0
+  - `stationOperations`: +1 -0 ~0
+  - `systemDbuffEmitters`: +84 -0 ~0
+  - `systemWideEffects`: +20 -1 ~0
+  - `typeBonus`: +44 -0 ~13
+  - `typeDogma`: +363 -0 ~643
+  - `typeElements`: +17 -0 ~8
+  - `typeLists`: +5 -0 ~13
+  - `typeMaterials`: +67 -0 ~0
+  - `types`: +618 -0 ~504
+
 ## Build 3670638 (2026-11-04) - base 3667080
 
 - 3 tables changed: +0 added, -0 removed, ~7 modified, 0 schema operations
