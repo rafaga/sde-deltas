@@ -3,6 +3,22 @@
 Changes between consecutive builds of the EVE Online Static Data Export, generated from `deltas/*/manifest.json`.
 It lists tables and counts only; the values are in `deltas/<build>/delta.jsonl.gz`.
 
+## Build 3687575 (2026-11-11) - base 3682781
+
+- 12 tables changed: +1 added, -0 removed, ~290 modified, 18 schema operations
+  - `blueprints`: +0 -0 ~1
+  - `dbuffCollections`: +0 -0 ~1
+  - `dogmaAttributes`: +0 -0 ~9
+  - `graphics`: +0 -0 ~1
+  - `groups`: +0 -0 ~1
+  - `metaGroups`: +0 -0 ~1
+  - `militaryCampaignObjectives`: +0 -0 ~12
+  - `militaryCampaigns`: +0 -0 ~8 [schema: add_path x18]
+  - `npcCharacters`: +0 -0 ~4
+  - `typeBonus`: +0 -0 ~14
+  - `typeDogma`: +0 -0 ~9
+  - `types`: +1 -0 ~229
+
 ## Build 3682781 (2026-11-10) - base 3670638
 
 - 46 tables changed: +1959 added, -1 removed, ~1351 modified, 0 schema operations

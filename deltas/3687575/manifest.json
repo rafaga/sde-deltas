@@ -1,0 +1,214 @@
+{
+  "build": 3687575,
+  "counts": {
+    "accountingEntryTypes": 177,
+    "agentTypes": 13,
+    "agentsInSpace": 360,
+    "ancestries": 43,
+    "appliedProximityEffects": 119,
+    "archetypes": 36,
+    "bloodlines": 18,
+    "blueprints": 5135,
+    "categories": 48,
+    "certificates": 139,
+    "characterAttributes": 5,
+    "characterTitles": 119,
+    "cloneGrades": 4,
+    "compressibleTypes": 220,
+    "contrabandTypes": 8,
+    "controlTowerResources": 44,
+    "corporationActivities": 20,
+    "corporationRoleGroups": 9,
+    "corporationRoles": 55,
+    "dbuffCollections": 373,
+    "dogmaAttributeCategories": 37,
+    "dogmaAttributes": 2928,
+    "dogmaEffects": 3499,
+    "dogmaUnits": 60,
+    "dungeons": 1517,
+    "dynamicItemAttributes": 441,
+    "epicArcs": 21,
+    "expertSystems": 59,
+    "factions": 27,
+    "fighterAbilities": 36,
+    "fighterAbilitiesByType": 94,
+    "freelanceJobSchemas": 1,
+    "graphicMaterialSets": 960,
+    "graphics": 6113,
+    "groups": 1633,
+    "icons": 4908,
+    "industryActivities": 6,
+    "industryAssemblyLines": 146,
+    "industryInstallationTypes": 102,
+    "industryModifierSources": 220,
+    "industryTargetFilters": 18,
+    "landmarks": 45,
+    "linkWithShip": 3,
+    "mapAsteroidBelts": 40928,
+    "mapConstellations": 1184,
+    "mapMoons": 344457,
+    "mapPlanets": 68407,
+    "mapRegions": 114,
+    "mapSecondarySuns": 1038,
+    "mapSolarSystems": 8490,
+    "mapStargates": 13982,
+    "mapStars": 8089,
+    "marketGroups": 2125,
+    "masteries": 496,
+    "mercenaryTacticalOperations": 3,
+    "metaGroups": 15,
+    "metenoxMoonDrill": 1,
+    "militaryCampaignObjectives": 192,
+    "militaryCampaigns": 8,
+    "missions": 2892,
+    "notificationTypes": 297,
+    "npcCharacters": 11399,
+    "npcCorporationDivisions": 10,
+    "npcCorporations": 283,
+    "npcStations": 5211,
+    "planetResources": 25798,
+    "planetSchematics": 68,
+    "proximityTrap": 24,
+    "races": 11,
+    "schoolMap": 12,
+    "schools": 23,
+    "shipTreeElements": 30,
+    "shipTreeFactions": 17,
+    "shipTreeGroups": 52,
+    "skillPlans": 40,
+    "skinLicenses": 11908,
+    "skinMaterials": 878,
+    "skinrComponentCategories": 3,
+    "skinrComponentPointValues": 3,
+    "skinrComponentRarities": 6,
+    "skinrComponents": 630,
+    "skinrSlotCategories": 3,
+    "skinrSlotConfigurations": 4,
+    "skinrSlotNames": 8,
+    "skinrSlots": 8,
+    "skinrSlotsToMaterials": 16,
+    "skinrTierThresholds": 49,
+    "skins": 7079,
+    "sovereigntyUpgrades": 49,
+    "stationOperations": 70,
+    "stationServices": 27,
+    "stationStandingsRestrictions": 1,
+    "systemDbuffEmitters": 85,
+    "systemWideEffects": 114,
+    "translationLanguages": 8,
+    "typeBonus": 699,
+    "typeDogma": 27293,
+    "typeElements": 443,
+    "typeLists": 477,
+    "typeMaterials": 9635,
+    "types": 53925
+  },
+  "files": {
+    "delta.jsonl.gz": {
+      "bytes": 23875,
+      "sha256": "2cc4839d785dc771a5fecc487a28d59282af65280a11791fa9fbdbb936460c26"
+    },
+    "schema_delta.csv": {
+      "bytes": 1061,
+      "sha256": "777176ef071ba2c5af333596c625f26ea5849ab46c9404836787b9f709c583e1"
+    },
+    "summary.csv": {
+      "bytes": 3566,
+      "sha256": "d5fa1a162b0f7fc1aebac9d8f2039fdbc29a3b14e1274a1dd68693d71f779d4d"
+    },
+    "verification.csv": {
+      "bytes": 25,
+      "sha256": "88eb970f4841cc8dfded9fa18c27ce495639d3de945343de7c830dcbde914171"
+    }
+  },
+  "formatVersion": 1,
+  "lastBuild": 3682781,
+  "notice": "© 2014 CCP hf. All rights reserved. \"EVE\", \"EVE Online\", \"CCP\", and all related logos and images are trademarks or registered trademarks of CCP hf. This data is derived from the EVE Online Static Data Export and is the property of CCP hf.; see NOTICE. No official affiliation or endorsement by CCP Games is stated or implied.",
+  "releaseDate": "2026-11-11T11:07:08Z",
+  "source": "https://developers.eveonline.com/static-data/tranquility",
+  "tables": {
+    "blueprints": {
+      "added": 0,
+      "changed": 1,
+      "removed": 0
+    },
+    "dbuffCollections": {
+      "added": 0,
+      "changed": 1,
+      "removed": 0
+    },
+    "dogmaAttributes": {
+      "added": 0,
+      "changed": 9,
+      "removed": 0
+    },
+    "graphics": {
+      "added": 0,
+      "changed": 1,
+      "removed": 0
+    },
+    "groups": {
+      "added": 0,
+      "changed": 1,
+      "removed": 0
+    },
+    "metaGroups": {
+      "added": 0,
+      "changed": 1,
+      "removed": 0
+    },
+    "militaryCampaignObjectives": {
+      "added": 0,
+      "changed": 12,
+      "removed": 0
+    },
+    "militaryCampaigns": {
+      "added": 0,
+      "changed": 8,
+      "changelogFlags": [
+        "schemaChanged"
+      ],
+      "removed": 0,
+      "schemaOps": {
+        "add_path": 18
+      }
+    },
+    "npcCharacters": {
+      "added": 0,
+      "changed": 4,
+      "removed": 0
+    },
+    "typeBonus": {
+      "added": 0,
+      "changed": 14,
+      "removed": 0
+    },
+    "typeDogma": {
+      "added": 0,
+      "changed": 9,
+      "removed": 0
+    },
+    "types": {
+      "added": 1,
+      "changed": 229,
+      "removed": 0
+    }
+  },
+  "totals": {
+    "added": 1,
+    "changed": 290,
+    "deltaLines": 309,
+    "removed": 0,
+    "schemaOps": 18,
+    "tablesChanged": 12,
+    "tablesCompared": 101
+  },
+  "verification": {
+    "changelogCoverage": "complete",
+    "errorDetails": [],
+    "errors": 0,
+    "info": 0,
+    "mode": "verify-all",
+    "status": "ok"
+  }
+}
