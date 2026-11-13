@@ -3,6 +3,17 @@
 Changes between consecutive builds of the EVE Online Static Data Export, generated from `deltas/*/manifest.json`.
 It lists tables and counts only; the values are in `deltas/<build>/delta.jsonl.gz`.
 
+## Build 3698585 (2026-11-13) - base 3693310
+
+- 7 tables changed: +1 added, -0 removed, ~42059 modified, 3 schema operations
+  - `blueprints`: +0 -0 ~5135 [schema: drop_path x1]
+  - `graphicMaterialSets`: +1 -0 ~0
+  - `mercenaryTacticalOperations`: +0 -0 ~3 [schema: drop_path x1]
+  - `missions`: +0 -0 ~1878
+  - `planetResources`: +0 -0 ~23086
+  - `skinLicenses`: +0 -0 ~11908 [schema: drop_path x1]
+  - `sovereigntyUpgrades`: +0 -0 ~49
+
 ## Build 3693310 (2026-11-12) - base 3687575
 
 - 5 tables changed: +0 added, -0 removed, ~2546 modified, 0 schema operations

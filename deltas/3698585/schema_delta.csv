@@ -1,0 +1,4 @@
+table,kind,field_path
+blueprints,field_removed,blueprintTypeID
+mercenaryTacticalOperations,field_removed,dungeonID
+skinLicenses,field_removed,licenseTypeID
