@@ -3,6 +3,26 @@
 Changes between consecutive builds of the EVE Online Static Data Export, generated from `deltas/*/manifest.json`.
 It lists tables and counts only; the values are in `deltas/<build>/delta.jsonl.gz`.
 
+## Build 3707965 (2026-11-17) - base 3698585
+
+- 16 tables changed: +30 added, -0 removed, ~246 modified, 0 schema operations
+  - `certificates`: +0 -0 ~2
+  - `characterTitles`: +29 -0 ~1
+  - `dbuffCollections`: +0 -0 ~2
+  - `dogmaAttributes`: +1 -0 ~9
+  - `dogmaEffects`: +0 -0 ~4
+  - `dungeons`: +0 -0 ~4
+  - `groups`: +0 -0 ~4
+  - `mapSolarSystems`: +0 -0 ~1
+  - `marketGroups`: +0 -0 ~5
+  - `missions`: +0 -0 ~3
+  - `npcCorporations`: +0 -0 ~1
+  - `shipTreeGroups`: +0 -0 ~1
+  - `typeBonus`: +0 -0 ~8
+  - `typeDogma`: +0 -0 ~4
+  - `typeMaterials`: +0 -0 ~16
+  - `types`: +0 -0 ~181
+
 ## Build 3698585 (2026-11-13) - base 3693310
 
 - 7 tables changed: +1 added, -0 removed, ~42059 modified, 3 schema operations
